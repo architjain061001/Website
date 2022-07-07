@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutMe.css"
-import dp from '//Images/dp.PNG'
+import dp from '/Users/admin/Desktop/Website/src/Images/dp.PNG'
 
 function AboutMe() {
     return (

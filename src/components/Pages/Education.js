@@ -1,18 +1,18 @@
 import React from "react";
 import './Education.css'
 import { Box } from "@mui/system";
-import tufts from '//Images/tufts.webp';
-import emory from '//Images/Emory.jpg';
+import tufts from '/Users/admin/Desktop/Website/src/Images/tufts.webp';
+import emory from '/Users/admin/Desktop/Website/src/Images/Emory.jpg';
 
 
-import Cplus from '//Images/Skills/c++.svg';
-import C from '//Images/Skills/C.png';
-import java from '//Images/Skills/java.png';
-import python from '//Images/Skills/python.png';
-import swift from '//Images/Skills/swift.png';
-import javascript from '//Images/Skills/javascript.png';
-import css from '//Images/Skills/css.png';
-import react from '//Images/Skills/react.png';
+import Cplus from '/Users/admin/Desktop/Website/src/Images/Skills/c++.svg';
+import C from '/Users/admin/Desktop/Website/src/Images/Skills/C.png';
+import java from '/Users/admin/Desktop/Website/src/Images/Skills/java.png';
+import python from '/Users/admin/Desktop/Website/src/Images/Skills/python.png';
+import swift from '/Users/admin/Desktop/Website/src/Images/Skills/swift.png';
+import javascript from '/Users/admin/Desktop/Website/src/Images/Skills/javascript.png';
+import css from '/Users/admin/Desktop/Website/src/Images/Skills/css.png';
+import react from '/Users/admin/Desktop/Website/src/Images/Skills/react.png';
 
 
 
