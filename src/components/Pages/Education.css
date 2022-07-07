@@ -1,0 +1,154 @@
+body {
+
+}
+
+.educationbackground {
+    /* background-image: url('/Users/admin/Desktop/Website/src/Images/back.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: white;
+    height: 100%; 
+    justify-content: center;
+    text-align: center;
+    color: black;
+    display: block;
+}
+
+.edutitle {
+    padding: 1rem;
+}
+
+.educomponent {
+    display: block;
+    text-align: left;
+    background: rgb(65,125,193);
+    height: 30%;
+    width: 90%;
+    border-radius: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper {
+    display: flex;
+}
+
+.left-wrapper {
+    width: 80%;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.name1 {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+}
+
+.name2 {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.5%;
+}
+
+.name3 {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.5%;
+}
+
+.content {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.5%;
+}
+
+.right-wrapper {
+    width: 20%;
+    margin: auto;
+}
+
+.schoolimg {
+    width: 90%;
+    padding: 10%;
+    border-radius: 15%;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-items: center;
+    align-items: center;
+}
+
+.langimg {
+    width: 70%;
+    padding: 10%;
+    opacity: 90%;
+    padding-bottom: 0%;
+}
+
+.langimg:hover {
+    opacity: 100%;
+    transform: translateY(-2px);
+}
+
+.langimg:hover + .langimgtext{
+    opacity: 100%;
+    display: block;
+}
+
+.langimgtext {
+    opacity: 0%;
+}
+
+@media screen and (max-width: 800px) {
+    .left-wrapper {
+        width: 70%;
+        text-align: left;
+    }
+    .right-wrapper {
+        width: 30%;
+    }
+
+    .educomponent {
+        display: block;
+        text-align: left;
+        height: 30%;
+        width: 90%;
+        border-radius: 20px; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content: center;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .name1 {
+        font-size: 1.5rem;
+    }
+
+    .name2 {
+        font-size: 1rem;
+    }
+
+    .name3 {
+        font-size: 1rem;
+    }
+
+}

@@ -1,0 +1,139 @@
+body {
+    background-color: #f1f3ff;
+}
+
+.contact-page {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 70vh;
+}
+
+.contact-left-column {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contact-img {
+    border-radius: 25px;
+}
+
+.contact-right-column {
+    width: 50%;
+    padding-right: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.contact-desc {
+    color: grey;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    padding: 2rem;
+}
+
+.follow {
+    padding-right: 0.5rem;
+}
+
+a.social {
+    margin: 0 0.5rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.github {
+    color: #171515;
+}
+
+a.twitter {
+    color: #1DA1F2;
+}
+
+a.facebook {
+    color: #4267B2;
+}
+
+a.linkedln {
+    color: #0072b1;
+}
+
+a.instagram {
+    color: #bc2a8d;
+}
+
+.resume-container {
+    
+}
+
+.resume {
+    padding: 10px 25px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.resume:hover {
+    padding: 8px 23px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 500px) {
+    .contact-page {
+        background-color: #f1f3ff;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    
+    .contact-left-column {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .contact-right-column {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
