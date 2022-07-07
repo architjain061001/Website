@@ -29,23 +29,23 @@ export default function ContactMe() {
                 <div class="social-container">
                     <a href="https://github.com/architjain061001/"
                         className="github social">
-                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                        <FontAwesomeIcon icon={faGithub} size="3x" />
                     </a>
                     <a href="https://twitter.com/architjain38"
                         className="twitter social">
-                        <FontAwesomeIcon icon={faTwitter} size="2x" />
+                        <FontAwesomeIcon icon={faTwitter} size="3x" />
                     </a>
                     <a href="https://www.linkedin.com/in/archit-jain-8135821aa/"
                         className="linkedln social">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                        <FontAwesomeIcon icon={faLinkedin} size="3x" />
                     </a>
                     <a href="https://www.facebook.com/architrjain/"
                         className="facebook social">
-                        <FontAwesomeIcon icon={faFacebook} size="2x" />
+                        <FontAwesomeIcon icon={faFacebook} size="3x" />
                     </a>
                     <a href="https://www.instagram.com/architrjain"
                         className="instagram social">
-                        <FontAwesomeIcon icon={faInstagram} size="2x" />
+                        <FontAwesomeIcon icon={faInstagram} size="3x" />
                     </a>
                 </div>
                 <a href = 'https://drive.google.com/file/d/1wb9FZVAGiuFQho7doYXT1UY_YZSgGanL/view?usp=sharing//'
