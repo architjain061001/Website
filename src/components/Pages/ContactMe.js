@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactMe.css"
-import contactImg from '/Users/admin/Desktop/Website/src/Images/dp.PNG'
+import contactImg from '//Images/dp.PNG'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
