@@ -112,7 +112,7 @@ a.instagram {
 /* This is for the second section of the page  */
 
 .contact-page-2 {
-    background-image: url(../../Images/contact-backdrop.webp);
+    background-image: url(../../Images/contact-backdrop.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -131,7 +131,7 @@ a.instagram {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 5%;
     width: 30%;
 }
@@ -140,7 +140,7 @@ a.instagram {
     display: flex;
     flex-direction: column;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 10%;
     width: 70%;
     height: 80%;
     border-left: 1px solid white;
@@ -156,29 +156,41 @@ a.instagram {
 
 .icon-text {
     color: white;
-    font-size: 1rem;
-    padding: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    text-decoration: none;
 }
 
 .fa-phone {
     color: green;
     font-size: 2rem;
+    padding: 0.3rem;
 }
 
 .fa-envelope {
     color: orange;
     font-size: 2rem;
+    padding: 0.3rem
 }
 
 .fa-location-dot {
     color: #4267B2;
     font-size: 2rem;
+    padding: 0.3rem
+}
+
+.name-email-field {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
 }
 
 .field {
     display: flex;
     flex-direction: column;
+    text-align: left;
+    padding: 10px;
 }
+
 .info-label {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -188,8 +200,7 @@ a.instagram {
 .info-input {
     background-color: rgb(64, 64, 64, 0.8);
     height: 30px;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     color: white;
     outline: none;
     border: none;
@@ -199,12 +210,36 @@ a.instagram {
     font-weight: 600;
 }
 
+.message-input {
+    background-color: rgb(64, 64, 64, 0.8);
+    height: 100px;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    resize: none;
+}
+
 .info-input:focus {
     background-color: rgb(64, 64, 64, 0.5);
 }
 
+.message-input:focus {
+    background-color: rgb(64, 64, 64, 0.5);
+}
+
+.send-pos {
+    text-align: right;
+    padding: 10px;
+    padding-top: 20px;
+}
+
 .send {
-    padding: 10px 25px;
+    padding: 10px 50px;
     border-radius: 4px;
     outline: none;
     border: none;
@@ -217,7 +252,7 @@ a.instagram {
 }
 
 .send:hover {
-    padding: 8px 23px;
+    padding: 8px 48px;
     transition: all 0.3s ease-out;
     background-color: transparent;
     color: white;
@@ -269,10 +304,24 @@ a.instagram {
         font-size: 14px;
     }
 
+    .contact-left-column-2 {
+        display: none;
+    }
+    
+    .contact-right-column-2 {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        border: none;
+    }
+
     .inTouch {
         font-size: 1.5rem;
-        font-family: 'Open Sans', sans-serif;
-        padding-bottom: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .info-label {
+        font-size: 14px;
     }
     
     .icons {
@@ -281,28 +330,10 @@ a.instagram {
         padding: 10px;
     }
 
-    .icon-section {
-        padding: 10px;
+    .send {
+        padding: 10px 50px;
+        font-size: 14px;
+
     }
     
-    .icon-text {
-        color: white;
-        font-size: 1rem;
-        padding: 0.3rem;
-    }
-    
-    .fa-phone {
-        color: green;
-        font-size: 2rem;
-    }
-    
-    .fa-envelope {
-        color: orange;
-        font-size: 2rem;
-    }
-    
-    .fa-location-dot {
-        color: #4267B2;
-        font-size: 2rem;
-    }
 }

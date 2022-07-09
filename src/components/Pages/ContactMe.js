@@ -12,6 +12,8 @@ import {
 
 
 export default function ContactMe() {
+    
+    
     return (
     <>
         <div className='contact-page-1'>
@@ -83,37 +85,38 @@ export default function ContactMe() {
                     <i className="fa-solid fa-location-dot" />
                     <a className="icon-text"
                     href="https://goo.gl/maps/PmKJsoZkapnD3jST7">  
-                            <p>29 Chetwynd Rd, <br />
-                            Somerville, MA 02144</p>
+                            <p>29 Chetwynd Rd, Somerville,<br />
+                            MA 02144</p>
                     </a>        
                 </div>
             </div>
             <div className='contact-right-column-2'>
-                <form action="https://formsubmit.co/architjain061001@gmail.com" method="post" id="signup">
-                    <div class="field">
-                        <label className='info-label'
-                            for="name">
-                                Name:
-                        </label>
-                        <input className='info-input'
-                            type="text" 
-                            id="name" 
-                            name="name"/>
-                        <small></small>
-                    </div>
+                <form action="sendEmail(); reset()" method="post" id="signup">
+                    <div className='name-email-field'>
+                        <div class="field">
+                            <label className='info-label'
+                                for="name">
+                                    Name:
+                            </label>
+                            <input className='info-input'
+                                type="text" 
+                                id="name" 
+                                name="name"/>
+                            <small></small>
+                        </div>
 
-                    <div class="field">
-                        <label className='info-label'
-                            for="email">
-                                Email:
-                        </label>
-                        <input className='info-input'
-                            type="text" 
-                            id="email" 
-                            name="email"/>
-                        <small></small>
-                    </div>
-
+                        <div class="field">
+                            <label className='info-label'
+                                for="email">
+                                    Email:
+                            </label>
+                            <input className='info-input'
+                                type="text" 
+                                id="email" 
+                                name="email"/>
+                            <small></small>
+                        </div>
+                    </div>    
                     <div class="field">
                         <label className='info-label'
                             for="subject">
@@ -130,16 +133,19 @@ export default function ContactMe() {
                         <label className='info-label'
                             for="messag
                             e">Message:</label>
-                        <input className='info-input'
+                        <textarea className='message-input'
                             type="text" 
-                            name="message"/>
+                            name="message"
+                            resize="none"
+                            />
                         <small></small>
                     </div>
-
-                    <button type="submit"
-                            className="send">
-                                Send
-                    </button>
+                    <div className='send-pos'>
+                        <button type="submit"
+                                className="send">
+                                    Send
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
