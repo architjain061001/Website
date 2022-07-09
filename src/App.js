@@ -22,6 +22,14 @@ function App() {
         <Route path='/contact-me' exact element={<ContactMe/>} />
       </Routes>
     </Router>
+    // <>
+    //     <Navbar />  
+    //     <AboutMe />
+    //     <Education />
+    //     <Experience />
+    //     <Publications />
+    //     <ContactMe />
+    // </>
   );
 }
 
