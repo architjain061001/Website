@@ -10,6 +10,78 @@ body {
     display: block;
 }
 
+/* this is the personal info and attributes */
+
+.personal-attribute {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-attribute-col {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.personal-column {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 5%;
+}
+
+.attribute-column {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 5%;
+}
+
+.attribute {
+    padding: 5%;
+    margin: 5%;
+    border: solid 2px grey;
+    border-radius: 10px;
+    align-items: center;
+    text-align: left;
+}
+
+.attribute-time {
+    color: orange;
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.attribute-name {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.fa-laptop-code {
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-code {
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-book {
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-square-poll-vertical {
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* this is the education experience title */
+
 .edu-exp-title {
     font-size: 2rem;
     padding-bottom: 0.5rem;
@@ -170,6 +242,14 @@ body {
 
 /* this is the skills column */
 
+.skills-title {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    text-align: left;
+    padding-left: 2.5%;
+}
+
 .skills {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -219,6 +299,37 @@ body {
     .edu-exp-column {
         display: flex;
         flex-direction: column;
+    }
+
+    .personal-attribute-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .attribute-time {
+        font-size: 2rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+    
+    .attribute-name {
+        font-size: 12px;
+    }
+    
+    .fa-laptop-code {
+        font-size: 1.8rem;
+    }
+    
+    .fa-code {
+        font-size: 1.8rem;
+    }
+    
+    .fa-book {
+        font-size: 1.8rem;
+    }
+
+    .fa-square-poll-vertical {
+        font-size: 1.8rem;
     }
     
     .school-name {

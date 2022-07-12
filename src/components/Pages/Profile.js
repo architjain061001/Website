@@ -6,6 +6,36 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 export default function Profile() {
     return (        
         <div className='profile-page'>
+            <div className='personal-attribute'>
+                <h1>Profile</h1>
+                <div className='personal-attribute-col'>
+                    <div className='personal-column'>
+
+                    </div>
+                    <div className='attribute-column'>
+                        <div className='attribute'>   
+                            <i className="fa-solid fa-laptop-code"/>
+                            <h1 className='attribute-time'>10+</h1>
+                            <h3 className='attribute-name'>Months of SWE Experience</h3>
+                        </div>
+                        <div className='attribute'>   
+                            <i className="fa-solid fa-square-poll-vertical"/>
+                            <h1 className='attribute-time'>2+</h1>
+                            <h3 className='attribute-name'>Years of Marketing Experience</h3>
+                        </div>
+                        <div className='attribute'>   
+                            <i className="fa-solid fa-code"/>
+                            <h1 className='attribute-time'>8</h1>
+                            <h3 className='attribute-name'>Programming Languages</h3>
+                        </div>
+                        <div className='attribute'>   
+                            <i class="fa-solid fa-book"/>
+                            <h1 className='attribute-time'>3</h1>
+                            <h3 className='attribute-name'>Published Anthologies</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className='edu-exp-column'>
                 <div className='edu-column'>
                     <h1 className='edu-exp-title'>Education</h1>
@@ -70,7 +100,7 @@ export default function Profile() {
                             <div className='school-time-border'>
                                 <p className='school-time'>2009-2019</p>
                             </div>
-                            <h3 className='school-degree'>IB Diploma Programme, Cambridge IGCSE </h3>
+                            <h3 className='school-degree'>IB Diploma Programme, Cambridge IGCSE, Cambridge Checkpoint </h3>
                             <p className='school-desc'>
                                 Activities and societies: DYMUN (Co-chair of the press), 
                                 Inter-house Dramatics Competition (Supporting Actor and Audio-Visual Director), 
@@ -91,16 +121,18 @@ export default function Profile() {
                         </div>
                         <div className='school-info'>
                             <div className='school-time-border'>
-                                <p className='school-time'>2009-2019</p>
+                                <p className='school-time'>Until Present</p>
                             </div>
-                            <h3 className='school-degree'>IB Diploma Programme, Cambridge IGCSE </h3>
                             <p className='school-desc'>
-                                Activities and societies: DYMUN (Co-chair of the press), 
-                                Inter-house Dramatics Competition (Supporting Actor and Audio-Visual Director), 
-                                Infinity (Represented my school in the nationwide math competition)  
+                                Certificate of Excellence as the 'strategist' 
+                                in the Digital Marketing Internship at Alter 
+                                Ego Learning, 2020
                             </p>
                             <p className='school-desc'>
-                                Relevant Courses: Math HL, Computer Science HL, Economics HL
+                                Learn Swift by CodeAcademy
+                            </p>
+                            <p className='school-desc'>
+                                Sketching at Udemy
                             </p>
                         </div>  
                     </div>
@@ -212,7 +244,7 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
-            <h1 className='edu-exp-title'>Skills</h1>
+            <h1 className='skills-title'>Skills</h1>
             <div className='skills'>
                 <div className='skill-sec'>
                     <h3 className='skill-name'>C++</h3>
@@ -261,6 +293,12 @@ export default function Profile() {
                     <h3 className='skill-name'>HTML</h3>
                     <div className='skill-level'>
                         <ProgressBar className='skill-level' now='80' label='80%' max='100'/>      
+                    </div>
+                </div>    
+                <div className='skill-sec'>
+                    <h3 className='skill-name'>React</h3>
+                    <div className='skill-level'>
+                        <ProgressBar className='skill-level' now='70' label='70%' max='100'/>      
                     </div>
                 </div>    
                 <div className='skill-sec'>
