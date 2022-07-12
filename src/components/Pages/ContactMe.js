@@ -12,8 +12,6 @@ import {
 
 
 export default function ContactMe() {
-    
-    
     return (
     <>
         <div className='contact-page-1'>
@@ -62,7 +60,7 @@ export default function ContactMe() {
                 <div className='icon-section'>
                     <i className="fa-solid fa-phone" />
                     <a className="icon-text"
-                    href="tel:7815186948">  
+                    href="tel:+17815186948">  
                             <p>+1 781-518-6948</p>
                     </a>        
                     <a className="icon-text"

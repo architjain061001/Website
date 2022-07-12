@@ -1,0 +1,376 @@
+body {
+    background-color: black;
+}
+
+.profile-page {
+    height: 100%; 
+    justify-content: center;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+/* this is the personal info and attributes */
+
+.personal-attribute {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-attribute-col {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.personal-column {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 5%;
+}
+
+.attribute-column {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 5%;
+}
+
+.attribute {
+    padding: 5%;
+    margin: 5%;
+    border: solid 2px grey;
+    border-radius: 10px;
+    align-items: center;
+    text-align: left;
+}
+
+.attribute-time {
+    color: orange;
+    font-size: 3rem;
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.attribute-name {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.fa-laptop-code {
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-code {
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-book {
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fa-square-poll-vertical {
+    color: grey;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* this is the education experience title */
+
+.edu-exp-title {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.edu-exp-column {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* this is the education column */
+
+.edu-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.school {
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.school-icon-name {
+    display: flex;
+    align-items: center;
+    padding-left: none;
+}
+
+.fa-user-graduate {
+    font-size: 2rem;
+    padding: 10px;    
+}
+
+.fa-certificate {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.school-name {
+    font-size: 1.5rem;
+    margin-left: 16px;
+}
+
+.school-icon-cover {
+    border-radius: 50px;
+    background-color: #417dc1;
+    width: fit-content;
+}
+
+.school-info {
+    border-left: solid 2px #417dc1;
+    padding-left: 42px;
+    margin-left: 25px;
+}
+
+.school-time-border {
+    background-color: grey;
+    width: fit-content;
+    height: fit-content;
+    padding: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+    
+}
+
+.school-time {
+    text-align: center;
+}
+
+.school-degree {
+    font-size: 1rem;
+    color: gray;
+    padding-bottom: 0.3rem;
+}
+
+.school-desc {
+    font-size: 1rem;
+    color: gray;
+    padding-bottom: 0.3rem;
+}
+
+/* this is the experience column */
+
+.exp-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.company {
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.company-icon-name {
+    display: flex;
+    align-items: center;
+    padding-left: none;
+}
+
+.fa-briefcase {
+    font-size: 28px;
+    padding: 12px;    
+}
+
+.company-name {
+    font-size: 1.5rem;
+    margin-left: 16px;
+}
+
+.company-icon-cover {
+    border-radius: 50px;
+    background-color: orange;
+    width: fit-content;
+}
+
+.company-info {
+    border-left: solid 2px orange;
+    padding-left: 42px;
+    margin-left: 25px;
+}
+
+.company-time-border {
+    background-color: grey;
+    width: fit-content;
+    height: fit-content;
+    padding: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+    
+}
+
+.company-time {
+    text-align: center;
+}
+
+.company-role {
+    font-size: 1rem;
+    color: gray;
+    padding-bottom: 0.3rem;
+}
+
+.company-desc {
+    font-size: 1rem;
+    color: gray;
+    padding-bottom: 0.3rem;
+}
+
+/* this is the skills column */
+
+.skills-title {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    text-align: left;
+    padding-left: 2.5%;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.skill-sec {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.skill-img {
+    width: 70%;
+}
+
+.skill-name {
+    font-size: 1rem;
+    width: 120px;
+}
+
+.skill-level {
+    background-color: rgb(64, 64, 64);
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar {
+    background-color: green;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .edu-exp-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personal-attribute-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .attribute-time {
+        font-size: 2rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+    
+    .attribute-name {
+        font-size: 12px;
+    }
+    
+    .fa-laptop-code {
+        font-size: 1.8rem;
+    }
+    
+    .fa-code {
+        font-size: 1.8rem;
+    }
+    
+    .fa-book {
+        font-size: 1.8rem;
+    }
+
+    .fa-square-poll-vertical {
+        font-size: 1.8rem;
+    }
+    
+    .school-name {
+        font-size: 20px;
+    }
+
+    .school-time {
+        font-size: 14px;
+    }
+
+    .school-degree {
+        font-size: 14px;
+    }
+
+    .school-desc {
+        font-size: 14px;
+    }
+
+    .company-name {
+        font-size: 20px;
+    }
+
+    .company-time {
+        font-size: 14px;
+    }
+
+    .company-role {
+        font-size: 14px;
+    }
+
+    .company-desc {
+        font-size: 14px;
+    }
+    
+    
+    .skills {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        text-align: left;
+    }
+
+}

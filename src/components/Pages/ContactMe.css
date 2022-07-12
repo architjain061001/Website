@@ -224,6 +224,14 @@ a.instagram {
     resize: none;
 }
 
+.info-input:hover {
+    background-color: rgb(43, 45, 47, 0.8);
+}
+
+.message-input:hover {
+    background-color: rgb(43, 45, 47, 0.8);
+}
+
 .info-input:focus {
     background-color: rgb(64, 64, 64, 0.5);
 }

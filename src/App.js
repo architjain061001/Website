@@ -3,8 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import AboutMe from './components/Pages/AboutMe';
-import Education from './components/Pages/Education';
-import Experience from './components/Pages/Experience';
+import Profile from './components/Pages/Profile';
+import Projects from './components/Pages/Projects';
 import Publications from './components/Pages/Publications';
 import ContactMe from './components/Pages/ContactMe';
 
@@ -16,8 +16,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' exact element={<AboutMe/>} />
-        <Route path='/education' exact element={<Education/>} />
-        <Route path='/experience' exact element={<Experience/>} />
+        <Route path='/profile' exact element={<Profile/>} />
+        <Route path='/projects' exact element={<Projects/>} />
         <Route path='/publications' exact element={<Publications/>} />
         <Route path='/contact-me' exact element={<ContactMe/>} />
       </Routes>
