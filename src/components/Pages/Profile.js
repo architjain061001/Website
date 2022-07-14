@@ -1,16 +1,19 @@
 import React from "react";
 import './Profile.css'
+import Copyright from '../Copyright'
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import profileImg from '../../Images/dp.jpeg'
 
 
 export default function Profile() {
     return (        
         <div className='profile-page'>
             <div className='personal-attribute'>
-                <h1>Profile</h1>
+                <h1 className='profile-header'>Profile</h1>
                 <div className='personal-attribute-col'>
                     <div className='personal-column'>
-
+                        <img src={profileImg} alt="" className='personal-img' />
+                        
                     </div>
                     <div className='attribute-column'>
                         <div className='attribute'>   
@@ -322,6 +325,7 @@ export default function Profile() {
 
             </div>
                 {/* accessToken: 'IGQVJXYlY4akFfRzFjaTVhSGtlazNYQVJkUEpiRnFBM2pEemFQTnh2UDlJWURUTTQtRzZANMDgybGczNWpER0tEQmM3YUtRZAUwtY3ZAMVXBsd0lBa1FaOFAyeDJBRXpsYmI0bmlfYWNSR25URkgwZAV9zcgZDZD', */}
+        <Copyright />
         </div>
     )
 }

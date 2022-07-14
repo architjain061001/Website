@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactMe.css"
 import contactImg from '../../Images/dp.jpeg'
+import Copyright from '../Copyright'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
@@ -147,6 +148,7 @@ export default function ContactMe() {
                 </form>
             </div>
         </div>
+        <Copyright />
     </>      
     )
 }
