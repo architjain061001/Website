@@ -10,6 +10,10 @@ body {
     display: block;
 }
 
+.profile-header {
+    font-size: 3.5rem;
+}
+
 /* this is the personal info and attributes */
 
 .personal-attribute {
@@ -24,8 +28,12 @@ body {
 
 .personal-column {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
     padding: 5%;
+}
+
+.personal-img {
+   width: 100%;
+   border-radius: 25px;
 }
 
 .attribute-column {
@@ -296,6 +304,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    .profile-header {
+        font-size: 2.5rem;
+    }
+    
     .edu-exp-column {
         display: flex;
         flex-direction: column;
@@ -371,6 +383,11 @@ body {
         padding-left: 2.5%;
         padding-right: 2.5%;
         text-align: left;
+    }
+
+    .skills-title {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
 }

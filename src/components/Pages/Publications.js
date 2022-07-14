@@ -1,5 +1,6 @@
 import React from "react";
 import "./Publications.css"
+import Copyright from '../Copyright'
 // import PubBack from '../../Images/PubBack.jpeg' 
 import book from '../../Images/deadroses.jpg' 
 

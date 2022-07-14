@@ -1,0 +1,15 @@
+.copyright-sec {
+    display: flex;
+    color: gray;
+    align-items: center;
+    padding: 20px;
+}
+
+.fa-copyright {
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+.copyright-text {
+    font-size: 12px;
+}
