@@ -1,0 +1,56 @@
+.projects-page {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.projects-header {
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+
+.projects-sub-header {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.project-grid {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.project-layout {
+    margin: 5%;
+    position: relative;
+    text-align: center;  
+}
+
+.proj-img {
+    width: 100%;
+}
+
+.proj-img:hover {
+    opacity: 0.15;
+}
+
+.project-layout-inner:hover + .proj-text {
+    opacity: 100%;
+}
+
+.proj-text {
+    display: flex;
+    position: absolute;
+    bottom: 45%;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    opacity: 0%;
+    z-index: -1;
+}
+
+
+
+
+

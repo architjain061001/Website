@@ -1,33 +1,28 @@
 import React, { useState } from 'react';
-import { Dropdown } from './Dropdown'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 
 function Navbar() {
-    const [click, setClick] = useState(false);
-    const [dropdown, setDropdown] = useState(false);
+    
+    var lastScrollTop; 
+    var navbar = document.querySelector('.navbar'); 
 
+    window.addEventListener('scroll', function(){
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if(scrollTop > lastScrollTop){ 
+            navbar.style.top='-10vh';
+        }
+        else{
+            navbar.style.top='0px';
+        }
+        lastScrollTop = scrollTop; 
+    });
+    
+    
+    const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
-    const onMouseEnter = () => {
-        if(window.innerWidth < 1400) {
-            setDropdown(false);
-        }
-        else {
-            setDropdown(true);
-        }
-    };
-
-    const onMouseLeave = () => {
-        if(window.innerWidth < 1400) {
-            setDropdown(false);
-        }
-        else {
-            setDropdown(false);
-        }
-    };
     
     return (
         <>
@@ -59,16 +54,12 @@ function Navbar() {
                         Projects
                     </Link>
                 </li>
-                <li className='nav-item'
-                    onMouseEnter={onMouseEnter}
-                    onMouseLeave={onMouseLeave}
-                >
+                <li className='nav-item'>
                     <Link to='/publications' 
                         className='nav-links' 
                         onClick={closeMobileMenu}>
                         Publications
                     </Link>
-                    {dropdown && <Dropdown />}
                 </li>
                 <li className='nav-item'>
                     <Link to='/contact-me' 

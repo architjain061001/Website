@@ -1,42 +1,246 @@
-.gallery {
-    display: grid;
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-    padding: 10px;
-    align-items: center;
-    text-align: center;
+body {
+    background-color: black;
 }
 
-.book-section {
-    padding: 10px;
-    width: 80%;
+/* this is the publications header page sec  */
+
+.pub-page {
     display: flex;
-    background-color: #7a7adb;
-    background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);
+    background-color: #f7f7f7;
+    height: 90vh;
+    margin-top: 10vh;
 }
 
-.book-img-section {
+.pub-page-img-sec {
     width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.pub-page-img {
+    width: 100%;
+}
+
+.pub-page-title-sec {
+    color: black;
     margin: auto;
 }
 
-.book-img {
-    width: 50%;
-}
-
-.book-detail-section {
-    width: 60%;
-}
-
-.book-title {
-    font-size: 2rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    text-align: left;
-}
-
-.book-description {
+.pub-page-sub-title {
     font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: gray;
 }
+
+.pub-page-title {
+    font-size: 3rem;
+    padding-bottom: 5px;
+}
+
+.pub-buy-sec {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.fa-cart-shopping {
+    font-size: 3rem;
+    padding-right: 10px;
+}
+
+.pub-buy {
+    outline: none;
+    border: none;
+    padding: 8px 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: orange;
+    cursor: pointer;
+    background-color: black;
+    font-size: 14px;
+    width: 120px;
+}
+
+.pub-buy:hover {
+    padding: 6px 21px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: orange;
+    background-color: inherit;
+    border: 2px solid black;
+} 
+
+/* this is the book info section  */
+
+.pub-page-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.pub-books {
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.pub-book-sec {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.pub-book {
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    width: 60%;
+    border-bottom: 1px solid grey;
+}
+
+.pub-book-img-sec {
+    width: 100%;
+    max-width: 200px;
+    align-items: center;
+}
+
+.pub-book-img {
+    width: 100%;
+}
+
+.pub-book-info-sec {
+    display: block;
+    min-width: 200px;
+}
+
+.pub-book-title {
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-left: 5%;
+
+}
+
+.pub-book-owner {
+    padding: 5px;
+    padding-left: 5%;
+}
+
+.pub-book-sub-title {
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    color: gray;
+    
+}
+
+.pub-book-info {
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.pub-book-desc {
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    max-width: 500px;
+}
+
+.pub-book-background-sec {
+    width: 40%;
+}
+
+.pub-background-img {
+    width: 100%;
+}
+
+.pub-book-buy-sec {
+    padding: 5%;
+    padding-top: 10px;
+}
+
+.pub-book-buy-link {
+    padding-right: 20px;
+}
+
+.pub-book-buy {
+    outline: none;
+    border: none;
+    padding: 6px 15px;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    font-size: 14px;
+    width: 120px;
+}
+
+.pub-book-buy:hover {
+    padding: 4px 13px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: orange;
+    background-color: inherit;
+    border: 2px solid white;
+} 
+
+
+
+@media screen and (max-width: 800px) {
+    .pub-page {
+        display: grid;
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+    }
+
+    .pub-page-img-sec {
+        width: 80%;
+        margin: auto;
+    }
+
+    .pub-page-img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .pub-page-title-sec {
+        margin-top: 10%;
+        padding: 10%;
+    }
+
+    .pub-page-sub-title {
+        font-size: 0.7rem;
+        color: gray;
+    }
+    
+    .pub-page-title {
+        font-size: 2rem;
+        
+    }
+    
+    .pub-buy-sec {
+        display: flex;
+
+        text-decoration: none;
+    }
+    
+    .fa-cart-shopping {
+        font-size: 2rem;
+        padding-right: 10px;
+    }
+    
+    .pub-buy {
+        outline: none;
+        border: none;
+        padding: 5px 0px;
+        margin-left: 3px;
+        margin-right: 3px;
+        color: orange;
+        cursor: pointer;
+        background-color: black;
+        font-size: 9px;
+        width: 90px;
+    }
+}
+
+
+
