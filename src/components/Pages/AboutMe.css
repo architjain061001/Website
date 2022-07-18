@@ -5,6 +5,7 @@ body {
 .about-page {
   display: flex;
   height: 90vh;
+  margin-top: 10vh;
 }
 
 /* this is the intro section */

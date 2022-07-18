@@ -3,7 +3,7 @@ body {
 }
 
 .profile-page {
-    height: 100%; 
+    margin-top: 10vh; 
     justify-content: center;
     text-align: center;
     color: white;

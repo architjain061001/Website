@@ -13,7 +13,9 @@ import ContactMe from './components/Pages/ContactMe';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <Routes>
         <Route path='/' exact element={<AboutMe/>} />
         <Route path='/profile' exact element={<Profile/>} />
