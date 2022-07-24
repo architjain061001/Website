@@ -14,16 +14,15 @@ function Navbar() {
             navbar.style.top='-10vh';
         }
         else{
-            navbar.style.top='0px';
+            navbar.style.top='0vh';
         }
         lastScrollTop = scrollTop; 
     });
     
-    
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
+    const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false);
-    
+
     return (
         <>
             <nav className='navbar'> 
@@ -35,15 +34,16 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-active' : 'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/' 
+                        className='nav-links' 
+                        onClick={closeMobileMenu}>
                         About Me
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/profile' 
                         className='nav-links' 
-                        onClick={closeMobileMenu}
-                    >
+                        onClick={closeMobileMenu}>
                         Profile
                     </Link>
                 </li>
