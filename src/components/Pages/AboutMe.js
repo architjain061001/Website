@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css"
 import Copyright from '../Copyright'
-import dp from '../../Images/dp.jpeg'
+import dp from '../../Images/dp.jpg'
 import test1 from '../../Images/test-1.jpeg'
 import test2 from '../../Images/test-2.png'
 

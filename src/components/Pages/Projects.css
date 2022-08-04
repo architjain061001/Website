@@ -35,12 +35,13 @@
 
 .project-layout-inner:hover + .proj-text {
     opacity: 100%;
+    transition: all ease-in-out 0.3s;
 }
 
 .proj-text {
     display: flex;
     position: absolute;
-    bottom: 45%;
+    bottom: 55%;
     width: 100%;
     height: 10%;
     align-items: center;
@@ -50,9 +51,112 @@
     z-index: -1;
 }
 
-.project-info-img {
-    height: 60%;
+.project-layout-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding: 10px;
+    padding-bottom: none;
+    z-index: 0;
+}
+
+.project-title {
+    color: white;
+    font-size: 1.5rem; 
+    text-align: left;
+}
+
+.project-desc {
+    color: gray;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/* this is the section for project detailed info  */
+
+.project-detailed-view {
+    position: fixed;
+    padding: 30px;
+    top: 20%;
+    width: 800px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top: -275px;/* Negative half of height. */
+    margin-left: -400px;/* Negative half of width. */
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    transition: all ease-in-out 0.4s;
+}
+
+.project-detailed-view-closed {
+    opacity: 0;
+    z-index: -2;
+    position: fixed;
+    padding: 30px;
+    top: 20%;
+    width: 800px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top: -275px;/* Negative half of height. */
+    margin-left: -400px;/* Negative half of width. */
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    transition: all ease-out 0.1s;
+}
+
+.blur {
+    position: fixed;
+    width: 100vw;
+    height: 90vh;
+    top:10vh;
+    background-color: rgb(0, 0, 0, 0.8);
+    transition: all ease-in 0.2s;
+}
+
+.project-detailed-title {
+    font-size: 2rem;
+    padding: 0 0 20px 0;
+}
+
+.project-detailed-laptop-view {
+    display: flex;
+}
+
+.project-detailed-sec {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.project-detailed-attribute-sec {
+    display: flex;
+    padding: 0 0 20px 0;
+}
+
+.project-detailed-attribute-title {
+    margin-right: 10px;
+    font-size: 16px;
+    color: gray;
+    width: 100px;
+    text-align: left;
+}
+
+.project-detailed-attribute-desc {
+    font-size: 16px;
+    color: black;
+    max-width: 220px;
+    text-align: left;
+}
+
+.project-detailed-image {
+    align-items: center;
+    height: 350px;
+    margin: 0 0 0 10px;
+    
 }
 
 .fa-x {
@@ -63,137 +167,40 @@
     cursor: pointer;
 }
 
-.project-info-text {
-    width: 100%;
-    text-align: left;
-    padding: 20px;
-    padding-left: 30px;
+.fa-arrow-left {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    padding: 10px;
+    cursor: pointer;
 }
 
-.project-info-attribute {
-    display: flex;
-    padding: 5px;
+.fa-arrow-right {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    padding: 10px;
+    cursor: pointer;
 }
 
-.project-info-title {
-    font-size: 20px;
-    color: gray;
-    width: 150px;
+.fa-file {
+    font-size: 1.5rem;
+    margin-left: 3px;
+    margin-right: 10px;
+    color: orange;
 }
 
-.project-info-title-desc {
-    font-size: 20px;
-    padding-left: 10px;
+.fa-building {
+    font-size: 1.5rem;
+    margin-left: 3px;
+    margin-right: 10px;
+    color: orange;
 }
 
-/* this is the section for project detailed info  */
-
-.no-blur {
-    display: flex;
-    width: 100vw;
-    height: 90vh;
-    position: fixed;
-    top: 10vh;
-    opacity: 0;
-    z-index: -1;
-    transition: all ease-out 0.5s;
+.fa-microchip {
+    font-size: 1.5rem;
+    margin-right: 7px;
+    color: orange;
 }
-
-.none {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    height: 90vh;
-    background-color: black;
-    z-index: 2;
-    position: fixed;
-    top: 10vh;
-    right: -100vh;
-    align-items: center;
-    transition: all ease-out 0.4s;
-}
-
-.project-compression-blur-sec {
-    display: flex;
-    background-color: rgb(0, 0, 0, 0.85);
-    width: 50vw;
-    height: 90vh;
-    position: fixed;
-    top: 10vh;
-    left: 0%;
-    opacity: 1;
-    z-index: 3;
-    transition: all ease-in 0.4s;
-}
-
-.project-compression-info-sec {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    height: 90vh;
-    background-color: black;
-    z-index: 2;
-    position: fixed;
-    top: 10vh;
-    right: 0;
-    align-items: center;
-    transition: all ease-in 0.4s;
-}
-
-.project-calculator-blur-sec {
-    display: flex;
-    background-color: rgb(0, 0, 0, 0.85);
-    width: 50vw;
-    height: 90vh;
-    position: fixed;
-    top: 10vh;
-    left: 0%;
-    opacity: 1;
-    z-index: 3;
-    transition: all ease-in 0.4s;
-}
-
-.project-calculator-info-sec {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    height: 90vh;
-    background-color: black;
-    z-index: 2;
-    position: fixed;
-    top: 10vh;
-    right: 0;
-    align-items: center;
-    transition: all ease-in 0.4s;
-}
-
-.project-blur-sec {
-    display: flex;
-    background-color: rgb(0, 0, 0, 0.85);
-    width: 50vw;
-    height: 90vh;
-    position: fixed;
-    top: 10vh;
-    left: 0%;
-    opacity: 1;
-    z-index: 3;
-    transition: all ease-in 0.4s;
-}
-
-.project-info-sec {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    height: 90vh;
-    background-color: black;
-    z-index: 2;
-    position: fixed;
-    top: 10vh;
-    right: 0;
-    align-items: center;
-    transition: all ease-in 0.4s;
-}
-
-
-
-
