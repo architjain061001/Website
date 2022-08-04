@@ -19,6 +19,7 @@ body {
 .personal-attribute {
     display: flex;
     flex-direction: column;
+    height: 90vh;
 }
 
 .personal-attribute-col {
@@ -52,7 +53,7 @@ body {
 }
 
 .attribute-time {
-    color: orange;
+    color: #620093;
     font-size: 3rem;
     text-align: left;
     padding-top: 0.3rem;

@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* this is the publications header page sec  */
 
 .pub-page {
@@ -9,6 +13,35 @@ body {
     background-color: #f7f7f7;
     height: 90vh;
     margin-top: 10vh;
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+@keyframes opacity {
+    0% {
+      opacity: 0.2;
+      transform: translateY(10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .pub-page-img-sec {
@@ -25,10 +58,11 @@ body {
 .pub-page-title-sec {
     color: black;
     margin: auto;
+    animation: 0.5s ease-in 0s 1 opacity;
 }
 
 .pub-page-sub-title {
-    font-size: 1rem;
+    font-size: 12px;
     padding-top: 5px;
     padding-bottom: 5px;
     color: gray;
@@ -48,30 +82,35 @@ body {
 }
 
 .fa-cart-shopping {
-    font-size: 3rem;
+    font-size: 2rem;
     padding-right: 10px;
+    color: orange;
+}
+
+.pub-buy-link {
+    text-decoration: none;
 }
 
 .pub-buy {
+    display: flex;
     outline: none;
     border: none;
-    padding: 8px 23px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: orange;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
     cursor: pointer;
     background-color: black;
-    font-size: 14px;
-    width: 120px;
+    font-size: 1rem;
+    border-radius: 30px;
 }
 
 .pub-buy:hover {
-    padding: 6px 21px;
+    padding: 12px 17px;
     transition: all 0.3s ease-out;
     background-color: transparent;
-    color: orange;
+    color: black;
     background-color: inherit;
-    border: 2px solid black;
+    border: 3px solid black;
 } 
 
 /* this is the book info section  */
@@ -82,28 +121,26 @@ body {
 }
 
 .pub-books {
-    padding: 1rem;
+    padding: 12px;
     text-align: center;
     font-size: 3rem;
 }
 
 .pub-book-sec {
     display: flex;
-    flex-direction: column;
-    padding: 5%;
+    padding: 10px 5% 10px 5%;
 }
 
 .pub-book {
     display: flex;
     text-align: left;
-    padding: 10px;
     width: 60%;
-    border-bottom: 1px solid grey;
+    padding: 0 10px 0 0;
 }
 
 .pub-book-img-sec {
     width: 100%;
-    max-width: 200px;
+    max-width: 250px;
     align-items: center;
 }
 
@@ -117,34 +154,26 @@ body {
 }
 
 .pub-book-title {
-    font-size: 2rem;
-    font-family:'Times New Roman', Times, serif;
-    padding: 5px;
-    padding-left: 5%;
-
+    font-size: 1.5rem;
+    padding: 0px 10px 10px 5%;
 }
 
 .pub-book-owner {
-    padding: 5px;
-    padding-left: 5%;
+    padding: 0px 10px 10px 5%;
 }
 
 .pub-book-sub-title {
-    font-size: 14px;
-    font-family:'Times New Roman', Times, serif;
-    color: gray;
-    
+    font-size: 12px;
+    color: gray;  
 }
 
 .pub-book-info {
-    font-size: 14px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
 }
 
 .pub-book-desc {
-    font-size: 14px;
-    font-family:'Times New Roman', Times, serif;
-    max-width: 500px;
+    font-size: 12px;
+    max-width: 450px;
 }
 
 .pub-book-background-sec {
@@ -160,8 +189,42 @@ body {
     padding-top: 10px;
 }
 
+/* this is the buying section for the book  */
+
+.pub-book-buying {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10px;
+}
+
+.pub-book-buying-title {
+    font-size: 1.5rem;
+    padding: 0 0 0px 0;
+}
+
+.pub-book-buy-link-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.pub-book-buy-sub-title {
+    font-size: 12px;
+    padding: 10px 0 10px 0;
+    color: gray;
+}
+
+.pub-book-buy-link-sub-sec {
+    display: flex;
+    align-items: center;
+}
+
+.pub-book-buy-img {
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
 .pub-book-buy-link {
-    padding-right: 20px;
+    margin: 0 0 0 20px;
 }
 
 .pub-book-buy {
@@ -171,39 +234,39 @@ body {
     color: black;
     cursor: pointer;
     background-color: white;
-    font-size: 14px;
-    width: 120px;
+    font-size: 12px;
+    width: 100px;
+    border-radius: 15px;
 }
 
 .pub-book-buy:hover {
     padding: 4px 13px;
     transition: all 0.3s ease-out;
     background-color: transparent;
-    color: orange;
+    color: white;
     background-color: inherit;
-    border: 2px solid white;
+    border: 2px solid orange;
 } 
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .pub-page {
         display: grid;
         grid-template-rows: repeat(2, minmax(0, 1fr));
     }
 
     .pub-page-img-sec {
-        width: 80%;
         margin: auto;
+        width: 100%;
     }
 
     .pub-page-img {
-        max-width: 400px;
-        max-height: 400px;
+        max-width: 550px;
+        max-height: 550px;
     }
 
     .pub-page-title-sec {
-        margin-top: 10%;
         padding: 10%;
     }
 
@@ -224,21 +287,62 @@ body {
     }
     
     .fa-cart-shopping {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-right: 10px;
     }
     
     .pub-buy {
+        display: flex;
         outline: none;
         border: none;
-        padding: 5px 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        color: orange;
+        align-items: center;
+        padding: 10px 15px;
+        color: white;
         cursor: pointer;
         background-color: black;
-        font-size: 9px;
-        width: 90px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+
+    .pub-buy:hover {
+        display: flex;
+        outline: none;
+        border: none;
+        align-items: center;
+        padding: 10px 15px;
+        color: white;
+        cursor: pointer;
+        background-color: black;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+
+    /* this is the anthologies section */
+
+    .pub-book-sec {
+        flex-direction: column;
+    }
+
+    .pub-books {
+        font-size: 2rem;
+    }
+
+    .pub-book {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pub-book-title {
+        padding: 0px 0 10px 0;
+    }
+    
+    .pub-book-owner {
+        padding: 0px 0 10px 0;
+    }
+
+    .pub-book-buying {
+        padding: 0;
     }
 }
 

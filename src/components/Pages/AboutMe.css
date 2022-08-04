@@ -23,7 +23,7 @@ body {
 }
 
 .about-right-section {
-  width: 50%;
+  width: 60%;
 }
 
 .about-img {
@@ -58,19 +58,23 @@ body {
 }
 
 .object-name {
-  display: none;
+  width: 0px;
+  color: white;
 }
 
 .fa-github {
   color: gray;
   font-size: 2rem;
   padding: 0.5rem;
+  -webkit-transition: all ease-in 0.3s;
 }
 
 .fa-github:hover + .object-name {
   display: flex;
   color: white;
   padding: 0.5rem;
+  transition: all ease-in 0.3s;
+  width: 70px;
 }
 
 .fa-twitter {
@@ -83,6 +87,8 @@ body {
   display: flex;
   color: white;
   padding: 0.5rem;
+  transition: all ease-in 0.3s;
+  width: 70px;
 }
 
 .fa-facebook {
@@ -95,6 +101,8 @@ body {
   display: flex;
   color: white;
   padding: 0.5rem;
+  transition: all ease-in 0.3s;
+  width: 95px;
 }
 
 .fa-linkedin {
@@ -107,6 +115,8 @@ body {
   display: flex;
   color: white;
   padding: 0.5rem;
+  transition: all ease-in 0.3s;
+  width: 85px;
 }
 
 .fa-instagram {
@@ -119,6 +129,8 @@ body {
   display: flex;
   color: white;
   padding: 0.5rem;
+  transition: all ease-in 0.3s;
+  width: 100px;
 }
 
 /* this is the services section */
@@ -273,6 +285,22 @@ body {
   @media screen and (max-width: 800px) { 
     .about-left-section {
       width: 100%;
+    }
+
+    .fa-github:hover + .object-name {
+      display: none;
+    }
+    .fa-twitter:hover + .object-name {
+      display: none;
+    }
+    .fa-facebook:hover + .object-name {
+      display: none;
+    }
+    .fa-instagram:hover + .object-name {
+      display: none;
+    }
+    .fa-linkedin:hover + .object-name {
+      display: none;
     }
     
     .about-right-section {
