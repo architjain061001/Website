@@ -66,15 +66,6 @@ body {
   color: gray;
   font-size: 2rem;
   padding: 0.5rem;
-  -webkit-transition: all ease-in 0.3s;
-}
-
-.fa-github:hover + .object-name {
-  display: flex;
-  color: white;
-  padding: 0.5rem;
-  transition: all ease-in 0.3s;
-  width: 70px;
 }
 
 .fa-twitter {
@@ -83,26 +74,10 @@ body {
   padding: 0.5rem;
 }
 
-.fa-twitter:hover + .object-name {
-  display: flex;
-  color: white;
-  padding: 0.5rem;
-  transition: all ease-in 0.3s;
-  width: 70px;
-}
-
 .fa-facebook {
   color: gray;  
   font-size: 2rem;
   padding: 0.5rem;
-}
-
-.fa-facebook:hover + .object-name {
-  display: flex;
-  color: white;
-  padding: 0.5rem;
-  transition: all ease-in 0.3s;
-  width: 95px;
 }
 
 .fa-linkedin {
@@ -111,26 +86,10 @@ body {
   padding: 0.5rem;
 }
 
-.fa-linkedin:hover + .object-name {
-  display: flex;
-  color: white;
-  padding: 0.5rem;
-  transition: all ease-in 0.3s;
-  width: 85px;
-}
-
 .fa-instagram {
   color: gray;  
   font-size: 2rem;
   padding: 0.5rem;
-}
-
-.fa-instagram:hover + .object-name {
-  display: flex;
-  color: white;
-  padding: 0.5rem;
-  transition: all ease-in 0.3s;
-  width: 100px;
 }
 
 /* this is the services section */
@@ -282,25 +241,10 @@ body {
   font-size: 16px;
 }
  
-  @media screen and (max-width: 800px) { 
+  @media screen and (max-width: 1000px) { 
     .about-left-section {
       width: 100%;
-    }
-
-    .fa-github:hover + .object-name {
-      display: none;
-    }
-    .fa-twitter:hover + .object-name {
-      display: none;
-    }
-    .fa-facebook:hover + .object-name {
-      display: none;
-    }
-    .fa-instagram:hover + .object-name {
-      display: none;
-    }
-    .fa-linkedin:hover + .object-name {
-      display: none;
+      padding: 0 10% 10% 10%;
     }
     
     .about-right-section {
@@ -316,15 +260,17 @@ body {
     
     .service-page-subtitle {
       font-size: 12px;
+      padding-left: 10%;
     }
     
     .service-page-title {
       font-size: 40px;
+      padding-left: 10%;
       padding-bottom: 5%;
     }
     
     .service-sec {
-      margin-top: 0;
+      margin: 0 10% 10% 10%;
       padding-bottom: 0;
       border-bottom: 2px solid green;
     }
@@ -376,16 +322,17 @@ body {
     .testimonials-section {
       display: flex;
       flex-direction: column;
-      margin-left: 1%;
-      margin-right: 1%;
+      
     }
 
     .test-title {
       font-size: 2.5rem;
+      padding-left: 10%;
     }
 
     .test-sub-title {
       padding-top: 5%;
+      padding-left: 10%;
       font-size: 12px;
     }
 

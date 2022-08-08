@@ -4,7 +4,8 @@
 }
 
 .projects-header {
-    font-size: 3rem;
+    font-size: 5rem;
+    text-shadow: 5px 5px 0px gray;
     padding: 0.5rem;
 }
 
@@ -111,8 +112,8 @@
 .blur {
     position: fixed;
     width: 100vw;
-    height: 90vh;
-    top:10vh;
+    height: 100vh;
+    top:0vh;
     background-color: rgb(0, 0, 0, 0.8);
     transition: all ease-in 0.2s;
 }
@@ -203,4 +204,12 @@
     font-size: 1.5rem;
     margin-right: 7px;
     color: orange;
+}
+
+@media screen and (max-width: 900px) {
+    .projects-header {
+        font-size: 2rem;
+        text-shadow: 3px 3px 0px gray;
+        overflow: hidden;
+    }
 }

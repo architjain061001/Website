@@ -13,7 +13,6 @@ export default function Profile() {
                 <div className='personal-attribute-col'>
                     <div className='personal-column'>
                         <img src={profileImg} alt="" className='personal-img' />
-                        
                     </div>
                     <div className='attribute-column'>
                         <div className='attribute'>   

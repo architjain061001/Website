@@ -16,27 +16,22 @@ function AboutMe() {
                     <a className='social-object'
                        href="https://github.com/architjain061001/">
                       <i class="fa-brands fa-github"></i>
-                      <h3 className='object-name'>Github</h3>
                     </a>
                     <a className='social-object'
                        href="https://twitter.com/architjain38">
                       <i class="fa-brands fa-twitter"></i>
-                      <h3 className='object-name'>Twitter</h3>
                     </a>
                     <a className='social-object'
                        href="https://www.linkedin.com/in/archit-jain-8135821aa/">
                       <i class="fa-brands fa-linkedin"></i>
-                      <h3 className='object-name'>LinkedIn</h3>
                     </a>
                     <a className='social-object'
                        href="https://www.facebook.com/architrjain/">
                       <i class="fa-brands fa-facebook"></i>
-                      <h3 className='object-name'>Facebook</h3>
                     </a>
                     <a className='social-object'
                        href="https://www.instagram.com/architrjain">
                       <i class="fa-brands fa-instagram"></i>
-                      <h3 className='object-name'>Instagram</h3>
                     </a>
                 </div>
           </div>

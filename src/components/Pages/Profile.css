@@ -11,7 +11,8 @@ body {
 }
 
 .profile-header {
-    font-size: 3.5rem;
+    font-size: 5rem;
+    text-shadow: 5px 5px 0px gray;
 }
 
 /* this is the personal info and attributes */
@@ -44,20 +45,21 @@ body {
 }
 
 .attribute {
-    padding: 5%;
+    padding: 10%;
     margin: 5%;
-    border: solid 2px grey;
-    border-radius: 10px;
+    border: solid 2px white;
+    border-radius: 20px;
     align-items: center;
+    justify-content: center;
     text-align: left;
 }
 
 .attribute-time {
-    color: #620093;
+    color: #ce4a7eff;
     font-size: 3rem;
     text-align: left;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .attribute-name {
@@ -66,25 +68,25 @@ body {
 }
 
 .fa-laptop-code {
-    color: grey;
+    color: #9c51b6;
     font-size: 2rem;
     text-align: center;
 }
 
 .fa-code {
-    color: grey;
+    color: #9c51b6;
     font-size: 2rem;
     text-align: center;
 }
 
 .fa-book {
-    color: grey;
+    color: #9c51b6;
     font-size: 2rem;
     text-align: center;
 }
 
 .fa-square-poll-vertical {
-    color: grey;
+    color: #9c51b6;
     font-size: 2rem;
     text-align: center;
 }
@@ -304,9 +306,15 @@ body {
     justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .profile-header {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        text-shadow: 3px 3px 0px gray;
+        overflow: hidden;
+    }
+
+    .personal-column {
+        overflow: hidden;
     }
     
     .edu-exp-column {
@@ -319,30 +327,36 @@ body {
         flex-direction: column;
     }
 
+    .attribute {
+        padding: 5%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
     .attribute-time {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-top: 0.2rem;
         padding-bottom: 0.2rem;
     }
     
     .attribute-name {
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .fa-laptop-code {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
     
     .fa-code {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
     
     .fa-book {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 
     .fa-square-poll-vertical {
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
     
     .school-name {
