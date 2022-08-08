@@ -1,16 +1,7 @@
 import React from "react";
 import "./ContactMe.css"
-import contactImg from '../../Images/dp.jpeg'
+import contactImg from '../../Images/ContactPic.png'
 import Copyright from '../Copyright'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faLinkedin,
-    faTwitter,
-    faFacebook,
-    faInstagram,
-    faGithub,
-  } from "@fortawesome/free-brands-svg-icons";
-
 
 export default function ContactMe() {
     return (
@@ -29,33 +20,29 @@ export default function ContactMe() {
                 </h3>
                 <div class="social-container">
                     <a href="https://github.com/architjain061001/"
-                        target="_blank"
-                        className="github social">
-                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                        target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i>
                     </a>
                     <a href="https://twitter.com/architjain38"
-                        target="_blank"
-                        className="twitter social">
-                        <FontAwesomeIcon icon={faTwitter} size="2x" />
+                        target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-twitter"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/archit-jain-8135821aa/"
-                        target="_blank"
-                        className="linkedln social">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                        target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
                     </a>
                     <a href="https://www.facebook.com/architrjain/"
-                        target="_blank"
-                        className="facebook social">
-                        <FontAwesomeIcon icon={faFacebook} size="2x" />
+                        target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-facebook"></i>
                     </a>
                     <a href="https://www.instagram.com/architrjain"
-                        target="_blank"
-                        className="instagram social">
-                        <FontAwesomeIcon icon={faInstagram} size="2x" />
+                        target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
                 <a href = 'https://drive.google.com/file/d/1wb9FZVAGiuFQho7doYXT1UY_YZSgGanL/view?usp=sharing//'
-                target="_blank">
+                target="_blank"
+                rel="noreferrer">
                     <button className='resume'>View Resume</button>
                 </a>
             </div>
@@ -67,12 +54,14 @@ export default function ContactMe() {
                     <i className="fa-solid fa-phone" />
                     <a className="icon-text"
                     href="tel:+17815186948"
-                    target="_blank">  
+                    target="_blank"
+                    rel="noreferrer">  
                             <p>+1 781-518-6948</p>
                     </a>        
                     <a className="icon-text"
                     href="tel:+919833384587"
-                    target="_blank">  
+                    target="_blank"
+                    rel="noreferrer">  
                             <p>+91 9833384587</p>
                     </a> 
                 </div>
@@ -80,12 +69,14 @@ export default function ContactMe() {
                     <i className="fa-solid fa-envelope" />
                     <a className="icon-text"
                     href="mailto:architjain061001@gmail.com"
-                    target="_blank">  
+                    target="_blank"
+                    rel="noreferrer">  
                             <p>architjain061001@gmail.com</p>
                     </a>        
                     <a className="icon-text"
                     href="mailto:archit.jain@tufts.edu"
-                    target="_blank">  
+                    target="_blank"
+                    rel="noreferrer">  
                             <p>archit.jain@tufts.edu</p>
                     </a> 
                 </div>
@@ -93,7 +84,8 @@ export default function ContactMe() {
                     <i className="fa-solid fa-location-dot" />
                     <a className="icon-text"
                     href="https://goo.gl/maps/wxW2NbU79TEmDVKy7"
-                    target="_blank">  
+                    target="_blank"
+                    rel="noreferrer">  
                         <p>World One, City View, Lower Parel, Mumbai, MA 400013, India</p>
                     </a>        
                 </div>

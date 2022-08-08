@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
-import './Navbar.css'
-
+import './Navbar.css' 
 
 function Navbar() {
     
@@ -27,7 +26,7 @@ function Navbar() {
         <>
             <nav className='navbar'> 
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    ARCHIT JAIN
+                    &lt; Archit Jain /&gt;
                 </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}/>

@@ -19,7 +19,12 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 6vh;
+  font-family: 'Cookie', cursive;
+}
+
+.navbar-logo-img {
+  height: 6vh;
 }
 
 .nav-menu {
@@ -126,6 +131,11 @@
     transition: all 0.5s ease;
   }
 
+  .navbar-logo {
+    padding: 0;
+
+  }
+
   .nav-links {
     text-align: center;
     padding: 2rem;
@@ -139,11 +149,10 @@
 
   .menu-icon {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    position: fixed;
+    top: 3vh;
+    right: 3vw;
+    font-size: 4vh;
     cursor: pointer;
   }
 

@@ -4,6 +4,7 @@ import Copyright from '../Copyright'
 import KPHANBack from '../../Images/KPHANBack.png' 
 import KPHAN from '../../Images/KPHAN.png' 
 import deadroses from '../../Images/deadroses.png'  
+import unheardvoices from '../../Images/unheardvoices.png'  
 import Amazon from '../../Images/Amazon.png'  
 import pothi from '../../Images/pothi.png'  
 
@@ -70,13 +71,13 @@ export default function Publications() {
                             <div className='pub-book-buy-link-sub-sec'>
                                 <img src={Amazon} alt='' className='pub-book-buy-img'/>
                                 <a href='https://www.amazon.com/dp/B0B3NYJJ4R' 
-                                   className='pub-book-buy-link' target="_blank">
+                                   className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         International
                                     </button>
                                 </a>
                                 <a href='https://www.amazon.in/dp/B0B3NYJJ4R' 
-                                   className='pub-book-buy-link' target="_blank">
+                                   className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         India
                                     </button>
@@ -86,7 +87,7 @@ export default function Publications() {
                             <div className='pub-book-buy-link-sub-sec'>
                                 <img src={Amazon} alt='' className='pub-book-buy-img'/>
                                 <a href='https://www.amazon.com/Kuch-Pal-Hare-Aur-Neele/dp/B0B3S1Y4ZV/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=' 
-                                   className='pub-book-buy-link' target="_blank">
+                                   className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         International
                                     </button>
@@ -95,7 +96,7 @@ export default function Publications() {
                             <div className='pub-book-buy-link-sub-sec'>
                                 <img src={pothi} alt='' className='pub-book-buy-img'/>
                                 <a href='https://store.pothi.com/book/archit-jain-kuch-pal-hare-aur-neele/' 
-                                   className='pub-book-buy-link' target="_blank">
+                                   className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         India
                                     </button>
@@ -141,12 +142,12 @@ export default function Publications() {
                             <h3 className='pub-book-buy-sub-title'>Ebook Options</h3>
                             <div className='pub-book-buy-link-sub-sec'>
                                 <img src={Amazon} alt='' className='pub-book-buy-img'/>
-                                <a href='https://www.amazon.com/dp/B0888KSNRP' className='pub-book-buy-link' target="_blank">
+                                <a href='https://www.amazon.com/dp/B0888KSNRP' className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         International
                                     </button>
                                 </a>
-                                <a href='https://www.amazon.in/dp/B0888KSNRP' className='pub-book-buy-link' target="_blank">
+                                <a href='https://www.amazon.in/dp/B0888KSNRP' className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         India
                                     </button>
@@ -155,7 +156,7 @@ export default function Publications() {
                             <h3 className='pub-book-buy-sub-title'>Paperback Options</h3>
                             <div className='pub-book-buy-link-sub-sec'>
                                 <img src={Amazon} alt='' className='pub-book-buy-img'/>
-                                <a href='https://www.amazon.com/Dead-Roses-Archit-Jain/dp/B08FP3WPCQ/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=' className='pub-book-buy-link' target="_blank">
+                                <a href='https://www.amazon.com/Dead-Roses-Archit-Jain/dp/B08FP3WPCQ/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=' className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         International
                                     </button>
@@ -163,7 +164,7 @@ export default function Publications() {
                             </div>
                             <div className='pub-book-buy-link-sub-sec'>
                                 <img src={pothi} alt='' className='pub-book-buy-img'/>
-                                <a href='https://store.pothi.com/book/archit-jain-dead-roses/' className='pub-book-buy-link' target="_blank">
+                                <a href='https://store.pothi.com/book/archit-jain-dead-roses/' className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         India
                                     </button>
@@ -175,7 +176,7 @@ export default function Publications() {
                 <div className='pub-book-sec'>
                     <div className='pub-book'>
                         <div className='pub-book-img-sec'>
-                                <img src={deadroses} alt='' className='pub-book-img'/>
+                                <img src={unheardvoices} alt='' className='pub-book-img'/>
                         </div>
                         <div className='pub-book-info-sec'>
                             <h2 className='pub-book-title'> Unheard Voices</h2>
@@ -206,12 +207,12 @@ export default function Publications() {
                             <h3 className='pub-book-buy-sub-title'>Ebook Options</h3>
                             <div className='pub-book-buy-link-sub-sec'>
                                 <img src={Amazon} alt='' className='pub-book-buy-img'/>
-                                <a href='https://www.amazon.com/dp/B0839N65F2' className='pub-book-buy-link' target="_blank">
+                                <a href='https://www.amazon.com/dp/B0839N65F2' className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         International
                                     </button>
                                 </a>
-                                <a href='https://www.amazon.in/dp/B0839N65F2' className='pub-book-buy-link' target="_blank">
+                                <a href='https://www.amazon.in/dp/B0839N65F2' className='pub-book-buy-link' target="_blank" rel="noreferrer">
                                     <button className='pub-book-buy'> 
                                         India
                                     </button>

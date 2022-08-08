@@ -14,14 +14,9 @@ body {
 }
 
 .contact-left-column {
-    width: 50%;
     display: flex;
     justify-content: center;
-    padding: 10px;
-}
-
-.contact-img {
-    border-radius: 25px;
+    padding: 7%;
 }
 
 .contact-right-column {
@@ -35,14 +30,11 @@ body {
 .contact-title {
     font-size: 3rem;
     padding-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .contact-desc {
     color: grey;
     font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
 }
 
 .social-container {
@@ -50,64 +42,77 @@ body {
     align-items: center;
     justify-content: center;
     text-align: right;
-    padding: 2rem;
+    padding: 20px;
 }
 
 .follow {
     padding-right: 0.5rem;
 }
 
-a.social {
-    margin: 0 0.5rem;
-    transition: transform 250ms;
-    display: inline-block;
+.fa-github {
+    color: white;
+    transition: all ease-in 0.3s;
 }
 
-a.social:hover {
+.fa-github:hover {
     transform: translateY(-2px);
 }
 
-a.github {
+.fa-twitter {
     color: white;
+    transition: all ease-in 0.3s;
 }
 
-a.twitter {
-    color: #1DA1F2;
+.fa-twitter:hover {
+    transform: translateY(-2px);
 }
 
-a.facebook {
-    color: #4267B2;
+.fa-linkedin {
+    color: white;
+    transition: all ease-in 0.3s;
 }
 
-a.linkedln {
-    color: #0072b1;
+.fa-linkedin:hover {
+    transform: translateY(-2px);
 }
 
-a.instagram {
-    color: #bc2a8d;
+.fa-facebook {
+    color: white;
+    transition: all ease-in 0.3s;
 }
+
+.fa-facebook:hover {
+    transform: translateY(-2px);
+}
+
+.fa-instagram {
+    color: white;
+    transition: all ease-in 0.3s;
+}
+
+.fa-instagram:hover {
+    transform: translateY(-2px);
+}
+
 
 .resume {
-    padding: 10px 25px;
-    border-radius: 4px;
+    padding: 8px 20px;
+    border-radius: 20px;
     outline: none;
     border: none;
     font-size: 18px;
     color: black;
     cursor: pointer;
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
 }
 
 .resume:hover {
-    padding: 8px 23px;
+    padding: 5px 17px;
     transition: all 0.3s ease-out;
-    background-color: transparent;
     color: white;
+    border: 3px solid white;
     background-color: black;
-    border-radius: 4px;
-    border: 2px solid white;
+    background-color: transparent;
 }
 
 /* This is for the second section of the page  */
