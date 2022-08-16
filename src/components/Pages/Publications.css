@@ -15,35 +15,6 @@ html {
     margin-top: 10vh;
 }
 
-@keyframes slideInLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-}
-
-@keyframes opacity {
-    0% {
-      opacity: 0.2;
-      transform: translateY(10%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fade {
-    0% {
-      opacity: 0.2;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .pub-page-img-sec {
     width: 40%;
     margin-top: auto;
@@ -58,7 +29,6 @@ html {
 .pub-page-title-sec {
     color: black;
     margin: auto;
-    animation: 0.5s ease-in 0s 1 opacity;
 }
 
 .pub-page-sub-title {

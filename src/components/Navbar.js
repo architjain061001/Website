@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <>
             <nav className='navbar'> 
-                <Link to='/' className='navbar-logo' onClick={() => window.location.reload()}>
+                <Link to='/' className='navbar-logo' onClick={() => window.reload()}>
                     &lt; Archit Jain /&gt;
                 </Link>
             <div className='menu-icon' onClick={handleClick}>
