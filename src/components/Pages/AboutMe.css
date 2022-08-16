@@ -40,6 +40,67 @@ body {
   font-size: 80px;
 }
 
+.role-wrapper{
+  display: flex;
+  overflow: hidden;
+}
+
+.role-wrapper .role-text{
+  color: gray;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.role-wrapper .roles{
+  margin-left: 7px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.roles li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 24px;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  100%{
+    top: -120px;
+  }
+}
+
+.roles li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+.roles li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(15) infinite;
+}
+
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 5px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
 .about-social-container {
   display: flex;
   background-color: rgb(64, 64, 64, 0.4);
@@ -66,30 +127,35 @@ body {
   color: gray;
   font-size: 2rem;
   padding: 0.5rem;
+  opacity: 0.5;
 }
 
 .fa-twitter {
   color: gray;
   font-size: 2rem;
   padding: 0.5rem;
+  opacity: 0.5;
 }
 
 .fa-facebook {
   color: gray;  
   font-size: 2rem;
   padding: 0.5rem;
+  opacity: 0.5;
 }
 
 .fa-linkedin {
   color: gray;  
   font-size: 2rem;
   padding: 0.5rem;
+  opacity: 0.5;
 }
 
 .fa-instagram {
   color: gray;  
   font-size: 2rem;
   padding: 0.5rem;
+  opacity: 0.5;
 }
 
 /* this is the services section */

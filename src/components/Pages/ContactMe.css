@@ -51,47 +51,52 @@ body {
 
 .fa-github {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-github:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 .fa-twitter {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-twitter:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 .fa-linkedin {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-linkedin:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 .fa-facebook {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-facebook:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 .fa-instagram {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-instagram:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 

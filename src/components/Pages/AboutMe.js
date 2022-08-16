@@ -12,6 +12,15 @@ function AboutMe() {
           <div className="about-left-section">
               <h2 className="intro">Hello, I'm</h2>
               <h1 className="name">Archit Jain</h1>
+              <div className="role-wrapper">
+                <h1 className="role-text">I'm</h1>
+                <ul className='roles'>
+                  <li><span>a Software Developer</span></li>
+                  <li><span>an Author</span></li>
+                  <li><span>a Graphic Desiner</span></li>
+                  <li><span>an Audio/Visual Designer</span></li>
+                </ul>
+              </div>
               <div class="about-social-container">
                     <a className='social-object'
                        href="https://github.com/architjain061001/">
