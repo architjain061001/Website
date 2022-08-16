@@ -15,7 +15,7 @@
 }
 
 .project-grid {
-    padding: 5%;
+    padding: 15px 5% 15px 5%;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }

@@ -25,7 +25,7 @@ function Navbar() {
     return (
         <>
             <nav className='navbar'> 
-                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                <Link to='/' className='navbar-logo' onClick={() => window.location.reload()}>
                     &lt; Archit Jain /&gt;
                 </Link>
             <div className='menu-icon' onClick={handleClick}>

@@ -53,15 +53,11 @@ export default function ContactMe() {
                 <div className='icon-section'>
                     <i className="fa-solid fa-phone" />
                     <a className="icon-text"
-                    href="tel:+17815186948"
-                    target="_blank"
-                    rel="noreferrer">  
+                    href="tel:+17815186948">  
                             <p>+1 781-518-6948</p>
                     </a>        
                     <a className="icon-text"
-                    href="tel:+919833384587"
-                    target="_blank"
-                    rel="noreferrer">  
+                    href="tel:+919833384587">  
                             <p>+91 9833384587</p>
                     </a> 
                 </div>
@@ -130,15 +126,13 @@ export default function ContactMe() {
                     </div>
 
                     <div class="field">
-                        <label className='info-label'
-                            for="messag
-                            e">Message:</label>
+                        <label className='info-label' for="message">
+                            Message:
+                        </label>
                         <textarea className='message-input'
                             type="text" 
                             name="message"
-                            resize="none"
-                            />
-                        <small></small>
+                            resize="none"/>
                     </div>
                     <div className='send-pos'>
                         <button type="submit"

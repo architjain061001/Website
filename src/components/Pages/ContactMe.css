@@ -51,47 +51,52 @@ body {
 
 .fa-github {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-github:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 .fa-twitter {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-twitter:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 .fa-linkedin {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-linkedin:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 .fa-facebook {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-facebook:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 .fa-instagram {
     color: white;
-    transition: all ease-in 0.3s;
+    transition: all ease-in 0.2s;
 }
 
 .fa-instagram:hover {
     transform: translateY(-2px);
+    opacity: 1;
 }
 
 
@@ -128,7 +133,6 @@ body {
 
 .inTouch {
     font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
     padding-bottom: 1.5rem;
     text-align: center;
 }
@@ -148,7 +152,7 @@ body {
     padding-left: 5%;
     padding-right: 10%;
     width: 70%;
-    height: 80%;
+
     border-left: 1px solid white;
 }
 
@@ -198,7 +202,6 @@ body {
 }
 
 .info-label {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     padding: 10px;
 }
@@ -212,7 +215,6 @@ body {
     border: none;
     border-radius: 5px;
     padding: 5px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
 
@@ -225,7 +227,6 @@ body {
     border: none;
     border-radius: 5px;
     padding: 5px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     resize: none;
 }
@@ -253,7 +254,7 @@ body {
 }
 
 .send {
-    padding: 10px 50px;
+    padding: 8px 50px;
     border-radius: 4px;
     outline: none;
     border: none;
@@ -261,24 +262,23 @@ body {
     color: black;
     cursor: pointer;
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    border-radius: 20px;
 }
 
 .send:hover {
-    padding: 8px 48px;
+    padding: 5px 47px;
     transition: all 0.3s ease-out;
     background-color: transparent;
     color: white;
     background-color: black;
-    border-radius: 4px;
-    border: 2px solid white;
+    border-radius: 20px;
+    border: 3px solid white;
 }
 
 
 /* this is for the mobile section */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .contact-page-1 {
         display: flex;
         flex-direction: column;
@@ -303,14 +303,14 @@ body {
 
     .contact-title {
         font-size: 2rem;
-        font-family: 'Open Sans', sans-serif;
+
         
     }
     
     .contact-desc {
         color: grey;
         font-size: 0.7rem;
-        font-family: 'Open Sans', sans-serif;
+
         font-weight: 600;
     }
 
@@ -318,8 +318,16 @@ body {
         font-size: 14px;
     }
 
+    .contact-page-2 {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
     .contact-left-column-2 {
-        display: none;
+        padding: 0 5% 10px 5%;
+        width: 100%;
+        border: none;
     }
     
     .contact-right-column-2 {
@@ -329,9 +337,21 @@ body {
         border: none;
     }
 
+    .icon-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .icon-text {
+        font-size: 12px;
+    }
+
     .inTouch {
-        font-size: 1.5rem;
-        padding-bottom: 0.5rem;
+        font-size: 20px;
+        padding-bottom: 5px;
     }
 
     .info-label {
@@ -341,13 +361,30 @@ body {
     .icons {
         display: flex;
         flex-direction: column;
-        padding: 10px;
+    }
+
+    .fa-phone {
+        font-size: 1.5rem;
+        padding: 0.3rem;
+    }
+    
+    .fa-envelope {
+        font-size: 1.5rem;
+        padding: 0.3rem
+    }
+    
+    .fa-location-dot {
+        font-size: 1.5rem;
+        padding: 0.3rem
     }
 
     .send {
         padding: 10px 50px;
-        font-size: 14px;
+        font-size: 12px;
+    }
 
+    .info-label {
+        font-size: 12px;
     }
     
 }

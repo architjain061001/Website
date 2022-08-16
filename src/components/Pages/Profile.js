@@ -1,7 +1,6 @@
 import React from "react";
 import './Profile.css'
 import Copyright from '../Copyright'
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import profileImg from '../../Images/dp.jpeg'
 
 
@@ -250,78 +249,40 @@ export default function Profile() {
             <div className='skills'>
                 <div className='skill-sec'>
                     <h3 className='skill-name'>C++</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' 
-                                     now='90' label='90%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>C</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='85' label='85%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>Java</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='70' label='70%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>Python</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='60' label='60%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>Swift</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='60' label='60%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>Javascript</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='80' label='80%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>CSS</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='80' label='80%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>HTML</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='80' label='80%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>React</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='70' label='70%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>Photoshop</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='70' label='70%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>FCPX</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='70' label='70%' max='100'/>      
-                    </div>
                 </div>    
                 <div className='skill-sec'>
                     <h3 className='skill-name'>MS Office</h3>
-                    <div className='skill-level'>
-                        <ProgressBar className='skill-level' now='90' label='90%' max='100'/>      
-                    </div>
                 </div>    
-
             </div>
                 {/* accessToken: 'IGQVJXYlY4akFfRzFjaTVhSGtlazNYQVJkUEpiRnFBM2pEemFQTnh2UDlJWURUTTQtRzZANMDgybGczNWpER0tEQmM3YUtRZAUwtY3ZAMVXBsd0lBa1FaOFAyeDJBRXpsYmI0bmlfYWNSR25URkgwZAV9zcgZDZD', */}
         <Copyright />
