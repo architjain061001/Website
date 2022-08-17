@@ -23,17 +23,9 @@ export default function ContactMe() {
                         target="_blank" rel="noreferrer">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://twitter.com/architjain38"
-                        target="_blank" rel="noreferrer">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
                     <a href="https://www.linkedin.com/in/archit-jain-8135821aa/"
                         target="_blank" rel="noreferrer">
                         <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="https://www.facebook.com/architrjain/"
-                        target="_blank" rel="noreferrer">
-                        <i class="fa-brands fa-facebook"></i>
                     </a>
                     <a href="https://www.instagram.com/architrjain"
                         target="_blank" rel="noreferrer">

@@ -18,11 +18,10 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false);
-    }, 3000)
+    }, 2500)
   }, [])
 
   return (
-    
     <Router>
       <Navbar />
       {
