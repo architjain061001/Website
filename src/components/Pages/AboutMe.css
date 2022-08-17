@@ -187,7 +187,7 @@ body {
 
 .service-sec:hover {
   padding-bottom: 0;
-  border-bottom: 2px solid green; 
+  border-bottom: 2px solid #FC6D6D; 
 }
 
 .service-title {
@@ -207,35 +207,35 @@ body {
   padding: 10%;
   padding-bottom: 0;
   font-size: 3rem;
-  color: green;
+  color: #FC6D6D;
 }
 
 .fa-css3-alt {
   padding: 10%;
   padding-bottom: 0;
   font-size: 3rem;
-  color: green;
+  color: #FC6D6D;
 }
 
 .fa-share-nodes {
   padding: 10%;
   padding-bottom: 0;
   font-size: 3rem;
-  color: green;
+  color: #FC6D6D;
 }
 
 .fa-wand-magic-sparkles {
   padding: 10%;
   padding-bottom: 0;
   font-size: 3rem;
-  color: green;
+  color: #FC6D6D;
 }
 
 .fa-clapperboard {
   padding: 10%;
   padding-bottom: 0;
   font-size: 3rem;
-  color: green;
+  color: #FC6D6D;
 }
 
 /* this is the testimonials section */
@@ -338,12 +338,12 @@ body {
     .service-sec {
       margin: 0 10% 10% 10%;
       padding-bottom: 0;
-      border-bottom: 2px solid green;
+      border-bottom: 2px solid #FC6D6D;
     }
     
     .service-sec:hover {
       padding-bottom: 0;
-      border-bottom: 2px solid green; 
+      border-bottom: 2px solid #FC6D6D; 
     }
     
     .service-title {
