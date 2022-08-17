@@ -23,7 +23,7 @@
 }
 
 .navbar-logo-img {
-  height: 6vh;
+  height: 5vh;
 }
 
 .nav-menu {
@@ -43,16 +43,35 @@
 }
 
 .nav-links {
-  color: white;
+  font-weight: bold;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  margin: 0 1rem;
+  display: inline-block;
+  position: relative;
 }
 
-.nav-links:hover {
+.nav-links::before {
+  transition: 300ms;
+  height: 4px;
+  content: "";
+  position: absolute;
   background-color: #FC6D6D;
-  color: white;
-  border-radius: 4px;
-  transition: all 0.1s ease-out;
+}
+
+.nav-link-fade-up::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-fade-up:hover::before {
+  width: 100%;
+}
+
+.active::before {
+  width: 100%;
+  bottom: 10px;
 }
 
 .fa-bars {
@@ -64,8 +83,9 @@
 }
 
 .contact-button {
-  padding: 10px 25px;
-  border-radius: 4px;
+  padding: 9px 25px;
+  margin-left: 16px;
+  border-radius: 20px;
   outline: none;
   border: none;
   font-size: 18px;
@@ -75,20 +95,18 @@
 }
 
 .contact-button:hover {
-  padding: 7px 22px;
+  padding: 6px 22px;
+  border-radius: 20px;
   transition: all 0.3s ease-out;
   background-color: transparent;
   color: white;
   background-color: black;
-  border-radius: 4px;
-  border: 3px solid white;
+  border: 3px solid #FC6D6D;
 }
 
 .menu-icon {
   display: none;
 }
-
-
 
 @media screen and (max-width: 1400px) {
   .NavbarItems {
@@ -137,17 +155,30 @@
   .nav-links {
     text-align: center;
     padding: 2rem;
+    margin: 0;
     width: 100%;
     display: table;
   }
 
   .nav-links:hover {
-    border-radius: 0;
+    background-color: #FC6D6D;
+  }
+  
+  .nav-link-fade-up:hover::before {
+    width: 0%;
+  }
+
+  .active::before {
+    width: 0%;
+  }
+
+  .active {
+    background-color: #FC6D6D;
   }
 
   .menu-icon {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 3vh;
     right: 3vw;
     font-size: 4vh;
