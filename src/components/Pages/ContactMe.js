@@ -79,58 +79,32 @@ export default function ContactMe() {
                 </div>
             </div>
             <div className='contact-right-column-2'>
-                <form action="sendEmail(); reset()" method="post" id="signup">
+                <form action="https://formspree.io/f/myyvzzkb" method="POST">
                     <div className='name-email-field'>
                         <div class="field">
-                            <label className='info-label'
-                                for="name">
-                                    Name:
-                            </label>
-                            <input className='info-input'
-                                type="text" 
-                                id="name" 
-                                name="name"/>
+                            <label className='info-label' for="name"> Name: </label>
+                            <input className='info-input' type="text" id="name" name="name" required/>
                             <small></small>
                         </div>
-
                         <div class="field">
-                            <label className='info-label'
-                                for="email">
-                                    Email:
-                            </label>
-                            <input className='info-input'
-                                type="text" 
-                                id="email" 
-                                name="email"/>
+                            <label className='info-label' for="email"> Email: </label>
+                            <input className='info-input' type="text" id="email" name="email" required/>
                             <small></small>
                         </div>
                     </div>    
                     <div class="field">
-                        <label className='info-label'
-                            for="subject">
+                        <label className='info-label' for="subject">
                                 Subject:
                         </label>
-                        <input className='info-input'
-                            type="text" 
-                            id="subject" 
-                            name="subject"/>
+                        <input className='info-input' type="text" id="subject" name="subject" required/>
                         <small></small>
                     </div>
-
                     <div class="field">
-                        <label className='info-label' for="message">
-                            Message:
-                        </label>
-                        <textarea className='message-input'
-                            type="text" 
-                            name="message"
-                            resize="none"/>
+                        <label className='info-label' for="message"> Message: </label>
+                        <textarea className='message-input' type="text" name="message" resize="none" required/>
                     </div>
                     <div className='send-pos'>
-                        <button type="submit"
-                                className="send">
-                                    Send
-                        </button>
+                        <button type="submit" className="send"> Send </button>
                     </div>
                 </form>
             </div>
