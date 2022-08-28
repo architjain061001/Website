@@ -1,11 +1,45 @@
 import React, { useState } from 'react';
+import { Alert } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 import './Navbar.css' 
 
 function Navbar() {
-    
     var lastScrollTop; 
     var navbar = document.getElementById("main"); 
+
+    window.addEventListener('load', function(){
+        var location = window.location.pathname;
+        if(location === "/") {
+            if(navbar != null) {
+                var current = navbar.getElementsByClassName("about-me-link");
+                current[0].className += " active";
+            }
+        }
+        else if(location === "/profile") {
+            if(navbar != null) {
+                var current = navbar.getElementsByClassName("profile-link");
+                current[0].className += " active";
+            }
+        }
+        else if(location === "/projects") {
+            if(navbar != null) {
+                var current = navbar.getElementsByClassName("projects-link");
+                current[0].className += " active";
+            }
+        }
+        else if(location === "/publications") {
+            if(navbar != null) {
+                var current = navbar.getElementsByClassName("publications-link");
+                current[0].className += " active";
+            }
+        }
+        else if(location === "/contact-me") {
+            if(navbar != null) {
+                var current = navbar.getElementsByClassName("contact-link");
+                current[0].className += " active";
+            }
+        }
+    })
 
     window.addEventListener('scroll', function(){
         var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -37,8 +71,6 @@ function Navbar() {
             current[0].className = current[0].className.replace(" active", "");
             this.className += " active";
         });
-
-
     }
         
     const [click, setClick] = useState(false);
@@ -57,35 +89,35 @@ function Navbar() {
             <ul className={click ? 'nav-active' : 'nav-menu'}>
                 <li className='nav-item'>
                     <Link to='/' 
-                        className='nav-links nav-link-fade-up active' 
+                        className='nav-links nav-link-fade-up about-me-link' 
                         onClick={closeMobileMenu}>
                         About Me
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/profile' 
-                        className='nav-links nav-link-fade-up' 
+                        className='nav-links nav-link-fade-up profile-link' 
                         onClick={closeMobileMenu}>
                         Profile
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/projects' 
-                        className='nav-links nav-link-fade-up' 
+                        className='nav-links nav-link-fade-up projects-link' 
                         onClick={closeMobileMenu}>
                         Projects
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/publications' 
-                        className='nav-links nav-link-fade-up' 
+                        className='nav-links nav-link-fade-up publications-link' 
                         onClick={closeMobileMenu}>
                         Publications
                     </Link>
                 </li>
                 <li className='nav-item'>
                     <Link to='/contact-me' 
-                        className='nav-links-mobile nav-link-fade-up' 
+                        className='nav-links-mobile nav-link-fade-up contact-link' 
                         onClick={closeMobileMenu}>
                         Contact Me 
                     </Link>

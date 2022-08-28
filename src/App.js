@@ -9,16 +9,13 @@ import Publications from './components/Pages/Publications';
 import ContactMe from './components/Pages/ContactMe';
 import LoadingScreen from './components/LoadingScreen';
 
- 
-
 function App() {
   const [loading, setLoading] = useState(false);
-
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false);
-    }, 1500)
+    }, 1750)
   }, [])
 
   return (

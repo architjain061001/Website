@@ -24,11 +24,14 @@ body {
 
 .about-right-section {
   width: 60%;
+  padding: 20px;
+  margin: auto;
 }
 
 .about-img {
   border-radius: 25px;
   width: 100%;
+  overflow: hidden;
 }
 
 .intro {

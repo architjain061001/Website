@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css"
 import Copyright from '../Copyright'
-import dp from '../../Images/dp.jpg'
+import dp from '../../Images/aboutImg.png'
 import test1 from '../../Images/test-1.jpeg'
 import test2 from '../../Images/test-2.png'
 
@@ -23,15 +23,18 @@ function AboutMe() {
               </div>
               <div class="about-social-container">
                     <a className='social-object'
-                       href="https://github.com/architjain061001/">
+                       href="https://github.com/architjain061001/"
+                       target="_blank" rel="noreferrer">
                       <i class="fa-brands fa-github"></i>
                     </a>
                     <a className='social-object'
-                       href="https://www.linkedin.com/in/archit-jain-8135821aa/">
+                       href="https://www.linkedin.com/in/archit-jain-8135821aa/"
+                       target="_blank" rel="noreferrer">
                       <i class="fa-brands fa-linkedin"></i>
                     </a>
                     <a className='social-object'
-                       href="https://www.instagram.com/architrjain">
+                       href="https://www.instagram.com/architrjain"
+                       target="_blank" rel="noreferrer">
                       <i class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
