@@ -14,6 +14,11 @@
     color: gray;
 }
 
+.projects-section-header {
+    font-size: 3rem;
+    padding: 2rem 1rem 0rem 1rem;
+}
+
 .project-grid {
     padding: 15px 5% 15px 5%;
     display: grid;
@@ -30,33 +35,11 @@
     width: 100%;
 }
 
-.proj-img:hover {
-    opacity: 0.15;
-}
-
-.project-layout-inner:hover + .proj-text {
-    opacity: 100%;
-    transition: all ease-in-out 0.3s;
-}
-
-.proj-text {
-    display: flex;
-    position: absolute;
-    bottom: 55%;
-    width: 100%;
-    height: 10%;
-    align-items: center;
-    justify-content: center;
-    user-select: none;
-    opacity: 0%;
-    z-index: -1;
-}
-
 .project-layout-bottom {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
     padding-bottom: none;
     z-index: 0;
 }
@@ -73,143 +56,59 @@
     text-align: left;
 }
 
-/* this is the section for project detailed info  */
-
-.project-detailed-view {
-    position: fixed;
-    z-index: 5;
-    padding: 30px;
-    width: 800px;
-    height: 600px;
-    top: 50%;
-    left: 50%;
-    margin-top: -275px;/* Negative half of height. */
-    margin-left: -400px;/* Negative half of width. */
-    background-color: white;
-    color: black;
-    overflow: hidden;
-    transition: all 0.4s;
-    opacity: 1;
-}
-
-.project-detailed-view-closed {
-    position: fixed;
-    z-index: -2;
-    padding: 30px;
-    width: 800px;
-    height: 600px;
-    top: 50%;
-    left: 50%;
-    margin-top: -275px;/* Negative half of height. */
-    margin-left: -400px;/* Negative half of width. */
-    background-color: white;
-    color: black;
-    overflow: hidden;
-    transition: all 0.4s;
-    opacity: 0;
-}
-
-.blur {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top:0vh;
-    background-color: rgb(0, 0, 0, 0.8);
-    transition: all ease-in 0.2s;
-}
-
-.project-detailed-title {
-    font-size: 2rem;
-    padding: 0 0 20px 0;
-}
-
-.project-detailed-laptop-view {
-    display: flex;
-}
-
-.project-detailed-sec {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.project-detailed-attribute-sec {
-    display: flex;
-    padding: 0 0 20px 0;
-}
-
-.project-detailed-attribute-title {
-    margin-right: 10px;
-    font-size: 16px;
-    color: gray;
-    width: 100px;
-    text-align: left;
-}
-
-.project-detailed-attribute-desc {
-    font-size: 16px;
-    color: black;
-    max-width: 220px;
-    text-align: left;
-}
-
-.project-detailed-image {
-    align-items: center;
-    height: 350px;
-    margin: 0 0 0 10px;
-    
-}
-
-.fa-x {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 5%;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.fa-arrow-left {
-    font-size: 1.5rem;
-    position: absolute;
-    left: 5px;
-    top: 50%;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.fa-arrow-right {
-    font-size: 1.5rem;
-    position: absolute;
-    right: 5px;
-    top: 50%;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.fa-file {
-    font-size: 1.5rem;
-    margin-left: 3px;
-    margin-right: 10px;
-    color: orange;
-}
-
-.fa-building {
-    font-size: 1.5rem;
-    margin-left: 3px;
-    margin-right: 10px;
-    color: orange;
-}
-
-.fa-microchip {
-    font-size: 1.5rem;
-    margin-right: 7px;
-    color: orange;
-}
-
 @media screen and (max-width: 900px) {
     .projects-header {
-        font-size: 2rem;
+        font-size: 3rem;
         text-shadow: 3px 3px 0px gray;
         overflow: hidden;
     }
+
+    .projects-sub-header {
+        font-size: 18px;
+        margin: 0 5%;
+        color: gray;
+    }
+    
+    .projects-section-header {
+        font-size: 2rem;
+        padding: 1rem 0.5rem 0rem 0.5rem;
+    }
+    
+    .project-grid {
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-layout {
+        margin: 5%;
+        position: relative;
+        text-align: center;  
+    }
+    
+    .proj-img {
+        width: 95%;
+    }
+    
+    .project-layout-bottom {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0px;
+        padding-bottom: none;
+        z-index: 0;
+    }
+    
+    .project-title {
+        color: white;
+        font-size: 20px; 
+        text-align: left;
+    }
+    
+    .project-desc {
+        color: gray;
+        font-size: 16px;
+        text-align: left;
+    }
+    
 }
