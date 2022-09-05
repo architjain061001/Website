@@ -10,32 +10,32 @@ function Navbar() {
         var location = window.location.pathname;
         if(location === "/") {
             if(navbar != null) {
-                var current = navbar.getElementsByClassName("about-me-link");
-                current[0].className += " active";
+                var current1 = navbar.getElementsByClassName("about-me-link");
+                current1[0].className += " active";
             }
         }
         else if(location === "/profile") {
             if(navbar != null) {
-                var current = navbar.getElementsByClassName("profile-link");
-                current[0].className += " active";
+                var current2 = navbar.getElementsByClassName("profile-link");
+                current2[0].className += " active";
             }
         }
         else if(location === "/projects") {
             if(navbar != null) {
-                var current = navbar.getElementsByClassName("projects-link");
-                current[0].className += " active";
+                var current3 = navbar.getElementsByClassName("projects-link");
+                current3[0].className += " active";
             }
         }
         else if(location === "/publications") {
             if(navbar != null) {
-                var current = navbar.getElementsByClassName("publications-link");
-                current[0].className += " active";
+                var current4 = navbar.getElementsByClassName("publications-link");
+                current4[0].className += " active";
             }
         }
         else if(location === "/contact-me") {
             if(navbar != null) {
-                var current = navbar.getElementsByClassName("contact-link");
-                current[0].className += " active";
+                var current5 = navbar.getElementsByClassName("contact-link");
+                current5[0].className += " active";
             }
         }
     })
