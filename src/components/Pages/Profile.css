@@ -127,7 +127,7 @@ body {
 
 .fa-user-graduate {
     font-size: 2rem;
-    padding: 10px;    
+    padding: 10px 14px;    
 }
 
 .fa-certificate {
@@ -203,7 +203,7 @@ body {
 
 .fa-briefcase {
     font-size: 28px;
-    padding: 12px;    
+    padding: 12px 14px;       
 }
 
 .company-name {
@@ -287,7 +287,7 @@ body {
 
 @media screen and (max-width: 1000px) {
     .profile-header {
-        font-size: 2rem;
+        font-size: 3rem;
         text-shadow: 3px 3px 0px gray;
         overflow: hidden;
     }

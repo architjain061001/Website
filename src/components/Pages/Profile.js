@@ -284,7 +284,6 @@ export default function Profile() {
                     <h3 className='skill-name'>MS Office</h3>
                 </div>    
             </div>
-                {/* accessToken: 'IGQVJXYlY4akFfRzFjaTVhSGtlazNYQVJkUEpiRnFBM2pEemFQTnh2UDlJWURUTTQtRzZANMDgybGczNWpER0tEQmM3YUtRZAUwtY3ZAMVXBsd0lBa1FaOFAyeDJBRXpsYmI0bmlfYWNSR25URkgwZAV9zcgZDZD', */}
         <Copyright />
         </div>
     )
