@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.b6b781b1.css",
+    "main.js": "/Website/static/js/main.92825e2f.js",
+    "static/media/profileImg.png": "/Website/static/media/profileImg.7fd311ea1e85df3cf4cb.png",
+    "static/media/Culture Week.png": "/Website/static/media/Culture Week.d78d0db3f7441a79320b.png",
+    "static/media/aboutImg.png": "/Website/static/media/aboutImg.8eedf99345242bd5dd16.png",
+    "static/media/unheardvoices.png": "/Website/static/media/unheardvoices.e2bd56572f8e9f6d9d0f.png",
+    "static/media/deadroses.png": "/Website/static/media/deadroses.72b4e7bc2bda9b78ff18.png",
+    "static/media/KPHAN.png": "/Website/static/media/KPHAN.4be77cc4d8ac2d16bbce.png",
+    "static/media/KPHANBack.png": "/Website/static/media/KPHANBack.297e37c3976758051772.png",
+    "static/media/Ramadan.png": "/Website/static/media/Ramadan.58513f2dc4dd6d6f18d9.png",
+    "static/media/contact-backdrop.png": "/Website/static/media/contact-backdrop.854fdd14688ec0a01815.png",
+    "static/media/ContactPic.png": "/Website/static/media/ContactPic.89f3f2d91f43d180aa96.png",
+    "static/media/test-2.png": "/Website/static/media/test-2.3be58d316ceed9d6f4b3.png",
+    "static/media/Thumbnail3.png": "/Website/static/media/Thumbnail3.f3933a5d16a0c673fb93.png",
+    "static/media/Reveal.png": "/Website/static/media/Reveal.ce309a7fb071ab20ff0c.png",
+    "static/media/Multibagger.png": "/Website/static/media/Multibagger.21419a89cfc58698282c.png",
+    "static/media/compression.png": "/Website/static/media/compression.d9c27b37748d51d5e246.png",
+    "static/media/test-1.jpeg": "/Website/static/media/test-1.38c38a6efb628ade9b8a.jpeg",
+    "static/media/Logo1.png": "/Website/static/media/Logo1.21a9f93113f514ffae0e.png",
+    "static/media/pothi.png": "/Website/static/media/pothi.670565762fe779f85542.png",
+    "static/media/splendor.jpeg": "/Website/static/media/splendor.cd6c138c33da12374f63.jpeg",
+    "static/media/Amazon.png": "/Website/static/media/Amazon.f3d6fd88133a7df08912.png",
+    "static/media/calculator.png": "/Website/static/media/calculator.e878f5753f8c12147998.png",
+    "index.html": "/Website/index.html",
+    "main.b6b781b1.css.map": "/Website/static/css/main.b6b781b1.css.map",
+    "main.92825e2f.js.map": "/Website/static/js/main.92825e2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6b781b1.css",
+    "static/js/main.92825e2f.js"
+  ]
+}
