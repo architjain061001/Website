@@ -42,7 +42,7 @@ function Navbar() {
 
     window.addEventListener('scroll', function(){
         var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        if(scrollTop > lastScrollTop){ 
+        if(scrollTop > lastScrollTop && scrollTop > 100){ 
             navbar.style.top='-10vh';
         }
         else{
