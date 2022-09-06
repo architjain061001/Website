@@ -17,7 +17,7 @@ function AboutMe() {
                 <ul className='roles'>
                   <li><span>a Software Developer</span></li>
                   <li><span>an Author</span></li>
-                  <li><span>a Graphic Desiner</span></li>
+                  <li><span>a Graphic Designer</span></li>
                   <li><span>an Audio/Visual Designer</span></li>
                 </ul>
               </div>
@@ -87,7 +87,7 @@ function AboutMe() {
             
             <div className='service-sec'>
               <i className="fa-solid fa-clapperboard"></i>
-              <h1 className='service-title'> Audio-Video Compostion </h1>
+              <h1 className='service-title'> Audio-Video Composition </h1>
               <p className='service-desc'> 
                 Want to give your users an experience before they try your 
                 product? I can help compose videos that will explain your 
