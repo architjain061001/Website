@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ecdc8fa.css",
-    "main.js": "/static/js/main.00516c22.js",
-    "static/media/profileImg.png": "/static/media/profileImg.7fd311ea1e85df3cf4cb.png",
+    "main.css": "/static/css/main.d1eb6398.css",
+    "main.js": "/static/js/main.dd76e2ec.js",
+    "static/media/Profile.JPG": "/static/media/Profile.e2e053cfd053fd57beca.JPG",
     "static/media/Culture Week.png": "/static/media/Culture Week.d78d0db3f7441a79320b.png",
     "static/media/aboutImg.png": "/static/media/aboutImg.8eedf99345242bd5dd16.png",
     "static/media/unheardvoices.png": "/static/media/unheardvoices.e2bd56572f8e9f6d9d0f.png",
@@ -24,11 +24,11 @@
     "static/media/Amazon.png": "/static/media/Amazon.f3d6fd88133a7df08912.png",
     "static/media/calculator.png": "/static/media/calculator.e878f5753f8c12147998.png",
     "index.html": "/index.html",
-    "main.0ecdc8fa.css.map": "/static/css/main.0ecdc8fa.css.map",
-    "main.00516c22.js.map": "/static/js/main.00516c22.js.map"
+    "main.d1eb6398.css.map": "/static/css/main.d1eb6398.css.map",
+    "main.dd76e2ec.js.map": "/static/js/main.dd76e2ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ecdc8fa.css",
-    "static/js/main.00516c22.js"
+    "static/css/main.d1eb6398.css",
+    "static/js/main.dd76e2ec.js"
   ]
 }
