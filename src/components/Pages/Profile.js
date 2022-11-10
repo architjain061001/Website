@@ -1,7 +1,7 @@
 import React from "react";
 import './Profile.css'
 import Copyright from '../Copyright'
-import profileImg from '../../Images/profileImg.png'
+import profileImg from '../../Images/Profile.JPG'
 
 
 export default function Profile() {
