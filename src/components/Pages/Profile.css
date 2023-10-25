@@ -13,6 +13,7 @@ body {
 .profile-header {
     font-size: 5rem;
     text-shadow: 5px 5px 0px gray;
+    overflow: hidden;
 }
 
 /* this is the personal info and attributes */
@@ -31,6 +32,7 @@ body {
     display: flex;
     padding: 30px;
     width: 50%;
+    justify-content: center;
 }
 
 .personal-img {
@@ -131,6 +133,10 @@ body {
 }
 
 .fa-certificate {
+    font-size: 2rem;
+    padding: 10px;
+}
+.fa-crown {
     font-size: 2rem;
     padding: 10px;
 }
@@ -317,7 +323,7 @@ body {
     }
 
     .personal-img {
-        height: 80%;
+        width: 90vw;
     }
 
     .attribute {
