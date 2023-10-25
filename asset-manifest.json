@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5b0ba98.css",
-    "main.js": "/static/js/main.dd76e2ec.js",
+    "main.css": "/static/css/main.d731a1fc.css",
+    "main.js": "/static/js/main.d680489a.js",
     "static/media/Profile.JPG": "/static/media/Profile.e2e053cfd053fd57beca.JPG",
     "static/media/Culture Week.png": "/static/media/Culture Week.d78d0db3f7441a79320b.png",
     "static/media/aboutImg.png": "/static/media/aboutImg.8eedf99345242bd5dd16.png",
@@ -19,16 +19,16 @@
     "static/media/compression.png": "/static/media/compression.d9c27b37748d51d5e246.png",
     "static/media/test-1.jpeg": "/static/media/test-1.38c38a6efb628ade9b8a.jpeg",
     "static/media/Logo1.png": "/static/media/Logo1.21a9f93113f514ffae0e.png",
+    "static/media/Avyrisk.png": "/static/media/Avyrisk.012f458dc25ed8b701ba.png",
     "static/media/pothi.png": "/static/media/pothi.670565762fe779f85542.png",
-    "static/media/splendor.jpeg": "/static/media/splendor.cd6c138c33da12374f63.jpeg",
     "static/media/Amazon.png": "/static/media/Amazon.f3d6fd88133a7df08912.png",
     "static/media/calculator.png": "/static/media/calculator.e878f5753f8c12147998.png",
     "index.html": "/index.html",
-    "main.b5b0ba98.css.map": "/static/css/main.b5b0ba98.css.map",
-    "main.dd76e2ec.js.map": "/static/js/main.dd76e2ec.js.map"
+    "main.d731a1fc.css.map": "/static/css/main.d731a1fc.css.map",
+    "main.d680489a.js.map": "/static/js/main.d680489a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5b0ba98.css",
-    "static/js/main.dd76e2ec.js"
+    "static/css/main.d731a1fc.css",
+    "static/js/main.d680489a.js"
   ]
 }
