@@ -141,6 +141,12 @@ body {
     padding: 10px;
 }
 
+.fa-crown {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+
 .school-name {
     font-size: 1.5rem;
     margin-left: 16px;
@@ -351,6 +357,10 @@ body {
     }
     
     .fa-book {
+        font-size: 1rem;
+    }
+    
+    .fa-crown {
         font-size: 1rem;
     }
 

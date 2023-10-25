@@ -57,8 +57,8 @@ export default function Profile() {
                             <h3 className='school-degree'>Dean's List: Fall '20, Spring '21, Fall '21, Spring '22</h3>
                             <p className='school-desc'>
                                 Activities and societies: JumboCode (Coding Projects for Non-profits), 
-                                Tufts Association for South Asians (Cultural organisation), 
-                                Tufts Cricket Club (Sports Team), Tamasha (Bollywood Fusion-Dance group)  
+                                Tufts Association for South Asians (Cultural organisation),
+                                Tamasha (Bollywood Fusion-Dance group)  
                             </p>
                             <p className='school-desc'>
                                 Relevant Courses: Machine Structures and Assembly-language Programming, 
@@ -123,7 +123,7 @@ export default function Profile() {
                         </div>
                         <div className='school-info'>
                             <div className='school-time-border'>
-                                <p className='school-time'>Sep 2020 - Present</p>
+                                <p className='school-time'>Sep 2020 - May 2023</p>
                             </div>
                             <h3 className='company-role'> Head of Public Relations </h3>
                             <p className='company-desc'>
@@ -144,7 +144,7 @@ export default function Profile() {
                         </div>
                         <div className='school-info'>
                             <div className='school-time-border'>
-                                <p className='school-time'>Sep 2022 - Present</p>
+                                <p className='school-time'>Sep 2022 - May 2023</p>
                             </div>
                             <h3 className='company-role'> Vice Captain </h3>
                             <p className='company-desc'>
@@ -175,33 +175,12 @@ export default function Profile() {
                             <p className='school-desc'>
                                 Learn Swift by CodeAcademy
                             </p>
-                    </div>
-                </div>
-                <div className='exp-column'>
-                    <h1 className='edu-exp-title'>Experience</h1>
-
-                    <div className='company'>
-                        <div className='company-icon-name'>
-                            <div className='company-icon-cover'>
-                                <i class="fa-solid fa-briefcase"></i>
-                            </div>
-                            <h2 className='company-name'>Tufts Department of Computer Science</h2>
-                        </div>
-                        <div className='company-info'>
-                            <div className='company-time-border'>
-                                <p className='company-time'>Aug. 2022 – Present</p>
-                            </div>
-                            <h3 className='company-role'> Teaching Assistant </h3>
-                            <p className='company-desc'>
-                            Teaching Assistant for a class of 100 students where 
-                            I helped them with questions regarding conceptual, 
-                            syntactical, and language-based understanding for different 
-                            programming languages. I also graded several assignments 
-                            for the computer science department in this class.
-                            </p>
                         </div>  
                     </div>
 
+                </div>
+                <div className='exp-column'>
+                    <h1 className='edu-exp-title'>Experience</h1>
                     <div className='company'>
                         <div className='company-icon-name'>
                             <div className='company-icon-cover'>
@@ -221,7 +200,6 @@ export default function Profile() {
                             </p>
                         </div>  
                     </div>
-
                     <div className='company'>
                         <div className='company-icon-name'>
                             <div className='company-icon-cover'>
@@ -243,7 +221,26 @@ export default function Profile() {
                             </p>
                         </div>  
                     </div>
-
+                    <div className='company'>
+                        <div className='company-icon-name'>
+                            <div className='company-icon-cover'>
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <h2 className='company-name'>Tufts College Community Research Center</h2>
+                        </div>
+                        <div className='company-info'>
+                            <div className='company-time-border'>
+                                <p className='company-time'>Sep 2021 - Dec 2021</p>
+                            </div>
+                            <h3 className='company-role'> Student Consultant </h3>
+                            <p className='company-desc'>
+                            Worked and coordinated with a team of 5 students to implement a 
+                            marketing campaign and a comprehensive marketing plan for an
+                             organization that focuses on providing grants and opportunities 
+                             for community based participatory research to Tufts students
+                            </p>
+                        </div>  
+                    </div>
                     <div className='company'>
                         <div className='company-icon-name'>
                             <div className='company-icon-cover'>
