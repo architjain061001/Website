@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d731a1fc.css",
-    "main.js": "/static/js/main.d680489a.js",
+    "main.css": "/static/css/main.5bc65f31.css",
+    "main.js": "/static/js/main.1a1f18ad.js",
     "static/media/Profile.JPG": "/static/media/Profile.e2e053cfd053fd57beca.JPG",
     "static/media/Culture Week.png": "/static/media/Culture Week.d78d0db3f7441a79320b.png",
     "static/media/aboutImg.png": "/static/media/aboutImg.8eedf99345242bd5dd16.png",
@@ -24,11 +24,11 @@
     "static/media/Amazon.png": "/static/media/Amazon.f3d6fd88133a7df08912.png",
     "static/media/calculator.png": "/static/media/calculator.e878f5753f8c12147998.png",
     "index.html": "/index.html",
-    "main.d731a1fc.css.map": "/static/css/main.d731a1fc.css.map",
-    "main.d680489a.js.map": "/static/js/main.d680489a.js.map"
+    "main.5bc65f31.css.map": "/static/css/main.5bc65f31.css.map",
+    "main.1a1f18ad.js.map": "/static/js/main.1a1f18ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.d731a1fc.css",
-    "static/js/main.d680489a.js"
+    "static/css/main.5bc65f31.css",
+    "static/js/main.1a1f18ad.js"
   ]
 }
