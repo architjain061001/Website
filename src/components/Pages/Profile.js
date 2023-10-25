@@ -1,7 +1,7 @@
 import React from "react";
 import './Profile.css'
 import Copyright from '../Copyright'
-import profileImg from '../../Images/profileImg.png'
+import profileImg from '../../Images/Profile.JPG'
 
 
 export default function Profile() {
@@ -53,6 +53,7 @@ export default function Profile() {
                                 <p className='school-time'>2020-2023</p>
                             </div>
                             <h3 className='school-degree'>B.S in Computer Science / Major GPA: 3.81</h3>
+                            <h3 className='school-degree'>Honors: Cum Laude</h3>
                             <h3 className='school-degree'>Dean's List: Fall '20, Spring '21, Fall '21, Spring '22</h3>
                             <p className='school-desc'>
                                 Activities and societies: JumboCode (Coding Projects for Non-profits), 
@@ -132,15 +133,31 @@ export default function Profile() {
                             <p className='school-desc'>
                                 Learn Swift by CodeAcademy
                             </p>
-                            <p className='school-desc'>
-                                Sketching at Udemy
-                            </p>
                         </div>  
                     </div>
 
                 </div>
                 <div className='exp-column'>
                     <h1 className='edu-exp-title'>Experience</h1>
+                    <div className='company'>
+                        <div className='company-icon-name'>
+                            <div className='company-icon-cover'>
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <h2 className='company-name'>Tufts Department of Computer Science</h2>
+                        </div>
+                        <div className='company-info'>
+                            <div className='company-time-border'>
+                                <p className='company-time'>Jun 2022 - Aug 2022</p>
+                            </div>
+                            <h3 className='company-role'> Teaching Assistant </h3>
+                            <p className='company-desc'>
+                                I had the privilege of assisting in teaching a challenging computer science class 
+                                with a class size of 100 students at Tufts, where I also took on the responsibility 
+                                of grading coding and conceptual assignments for the computer science department.
+                            </p>
+                        </div>  
+                    </div>
                     <div className='company'>
                         <div className='company-icon-name'>
                             <div className='company-icon-cover'>
@@ -181,27 +198,7 @@ export default function Profile() {
                             </p>
                         </div>  
                     </div>
-                    <div className='company'>
-                        <div className='company-icon-name'>
-                            <div className='company-icon-cover'>
-                                <i class="fa-solid fa-briefcase"></i>
-                            </div>
-                            <h2 className='company-name'>Tufts College Community Research Center </h2>
-                        </div>
-                        <div className='company-info'>
-                            <div className='company-time-border'>
-                                <p className='company-time'>Sep 2021 - Dec 2021</p>
-                            </div>
-                            <h3 className='company-role'> Student Consultant </h3>
-                            <p className='company-desc'>
-                                Worked and coordinated with a team of 5 students 
-                                to implement a marketing campaign and a comprehensive 
-                                marketing plan for an organization that focuses on providing grants 
-                                and opportunities for community based participatory research to Tufts 
-                                students
-                            </p>
-                        </div>  
-                    </div>
+
                     <div className='company'>
                         <div className='company-icon-name'>
                             <div className='company-icon-cover'>

@@ -15,10 +15,10 @@ function AboutMe() {
               <div className="role-wrapper">
                 <h1 className="role-text">I'm</h1>
                 <ul className='roles'>
+                  <li><span>a Freelancer</span></li>
                   <li><span>a Software Developer</span></li>
+                  <li><span>a Designer</span></li>
                   <li><span>an Author</span></li>
-                  <li><span>a Graphic Desiner</span></li>
-                  <li><span>an Audio/Visual Designer</span></li>
                 </ul>
               </div>
               <div class="about-social-container">
@@ -56,6 +56,17 @@ function AboutMe() {
                 programming languages
               </p>
             </div>
+            
+            <div className='service-sec'>
+              <i className="fa-brands fa-app-store"></i>
+              <h1 className='service-title'> App Development </h1>
+              <p className='service-desc'> 
+                With months of experience in mobile app development and a 
+                passion for creating innovative applications, I can assist 
+                you in building feature-rich mobile apps for a variety of 
+                platforms and use cases. 
+              </p>
+            </div>
 
             <div className='service-sec'>
               <i className="fa-brands fa-css3-alt"></i>
@@ -72,7 +83,7 @@ function AboutMe() {
               <h1 className='service-title'> Digital Marketing </h1>
               <p className='service-desc'> 
                 With experience in three marketing internships, I could help 
-                you find the secret formula to achieve your target audience goals  
+                you find the secret sauce to achieve your target audience goals  
               </p>
             </div>
             

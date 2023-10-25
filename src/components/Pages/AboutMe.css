@@ -241,6 +241,13 @@ body {
   color: #FC6D6D;
 }
 
+.fa-app-store {
+  padding: 10%;
+  padding-bottom: 0;
+  font-size: 3rem;
+  color: #FC6D6D;
+}
+
 /* this is the testimonials section */
 
 .testimonials {
@@ -359,6 +366,12 @@ body {
     }
     
     .fa-terminal {
+      padding: 10%;
+      padding-bottom: 0;
+      font-size: 2rem;
+    }
+    
+    .fa-app-store {
       padding: 10%;
       padding-bottom: 0;
       font-size: 2rem;
