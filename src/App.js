@@ -26,7 +26,7 @@ function App() {
           <LoadingScreen />
           :
         <Routes>
-          <Route path='/' exact element={<AboutMe/>} />
+          <Route exact path='/' element={<AboutMe/>} />
           <Route path='/profile' exact element={<Profile/>} />
           <Route path='/projects' exact element={<Projects/>} />
           <Route path='/publications' exact element={<Publications/>} />
