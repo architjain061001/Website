@@ -14,8 +14,8 @@ export default function ContactMe() {
                 <h1 className='contact-title'>Contact Me</h1>
                 <h3 className='contact-desc'>
                     You can contact me through these social media links below.
-                    I am a Software Developer, Web Developer, Graphic Designer,
-                    Audio/Video Editor, and Author. I can discuss any questions 
+                    I Freelance in Software Development, App Development, Web Development, 
+                    Designing, and Audio/Video Editing. I can discuss any questions 
                     you may have regarding this.  
                 </h3>
                 <div class="social-container">
