@@ -35,6 +35,10 @@
     width: 100%;
 }
 
+.proj-img:hover {
+    opacity: 60%;
+}
+
 .project-layout-bottom {
     display: flex;
     flex-direction: column;

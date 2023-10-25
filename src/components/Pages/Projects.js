@@ -61,7 +61,7 @@ export default function Projects() {
                     {programmingInfo.map((proj) =>
                         <div className='project-layout' key={proj.id} >
                             <div className='project-layout-inner'>
-                                <a href={proj.href} target="_blank">
+                                <a href={proj.href} target="_blank" rel="noreferrer">
                                     <img src={proj.src} alt="" className="proj-img"/>
                                 </a>
                                 <div className='project-layout-bottom'>
