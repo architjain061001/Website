@@ -98,7 +98,7 @@ function AboutMe() {
             
             <div className='service-sec'>
               <i className="fa-solid fa-clapperboard"></i>
-              <h1 className='service-title'> Audio-Video Compostion </h1>
+              <h1 className='service-title'> Audio-Video Composition </h1>
               <p className='service-desc'> 
                 Want to give your users an experience before they try your 
                 product? I can help compose videos that will explain your 

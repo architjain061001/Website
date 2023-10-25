@@ -39,7 +39,7 @@ export default function Profile() {
             </div>
             <div className='edu-exp-column'>
                 <div className='edu-column'>
-                    <h1 className='edu-exp-title'>Education</h1>
+                    <h1 className='edu-exp-title'>Education & Leadership</h1>
                     
                      <div className='school'>
                         <div className='school-icon-name'>
@@ -57,8 +57,8 @@ export default function Profile() {
                             <h3 className='school-degree'>Dean's List: Fall '20, Spring '21, Fall '21, Spring '22</h3>
                             <p className='school-desc'>
                                 Activities and societies: JumboCode (Coding Projects for Non-profits), 
-                                Tufts Association for South Asians (Cultural organisation),
-                                Tamasha (Bollywood Fusion-Dance group)  
+                                Tufts Association for South Asians (Cultural organisation), 
+                                Tufts Cricket Club (Sports Team), Tamasha (Bollywood Fusion-Dance group)  
                             </p>
                             <p className='school-desc'>
                                 Relevant Courses: Machine Structures and Assembly-language Programming, 
@@ -117,6 +117,48 @@ export default function Profile() {
                     <div className='school'>
                         <div className='school-icon-name'>
                             <div className='school-icon-cover'>
+                                <i class="fa-solid fa-crown"/>
+                            </div>
+                            <h2 className='company-name'>Tufts Association of South Asians</h2>
+                        </div>
+                        <div className='school-info'>
+                            <div className='school-time-border'>
+                                <p className='school-time'>Sep 2020 - Present</p>
+                            </div>
+                            <h3 className='company-role'> Head of Public Relations </h3>
+                            <p className='company-desc'>
+                                Led an event planning team by creating graphics,
+                                video compositions, and social media outreach across 
+                                campus for all students and organizations south-asian 
+                                community.  
+                            </p>
+                        </div>  
+                    </div>  
+
+                    <div className='school'>
+                        <div className='school-icon-name'>
+                            <div className='school-icon-cover'>
+                                <i class="fa-solid fa-crown"/>
+                            </div>
+                            <h2 className='company-name'>Tufts Cricket Club</h2>
+                        </div>
+                        <div className='school-info'>
+                            <div className='school-time-border'>
+                                <p className='school-time'>Sep 2022 - Present</p>
+                            </div>
+                            <h3 className='company-role'> Vice Captain </h3>
+                            <p className='company-desc'>
+                                Vice Captain of the University cricket team where 
+                                I planned and strategised gameplay, maanged the team,
+                                led squad selection, and planned strategies for 
+                                games against other universities.   
+                            </p>
+                        </div>  
+                    </div>  
+
+                    <div className='school'>
+                        <div className='school-icon-name'>
+                            <div className='school-icon-cover'>
                                 <i class="fa-solid fa-certificate"/>
                             </div>
                             <h2 className='school-name'>Certifications</h2>
@@ -133,12 +175,33 @@ export default function Profile() {
                             <p className='school-desc'>
                                 Learn Swift by CodeAcademy
                             </p>
-                        </div>  
                     </div>
-
                 </div>
                 <div className='exp-column'>
                     <h1 className='edu-exp-title'>Experience</h1>
+
+                    <div className='company'>
+                        <div className='company-icon-name'>
+                            <div className='company-icon-cover'>
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <h2 className='company-name'>Tufts Department of Computer Science</h2>
+                        </div>
+                        <div className='company-info'>
+                            <div className='company-time-border'>
+                                <p className='company-time'>Aug. 2022 – Present</p>
+                            </div>
+                            <h3 className='company-role'> Teaching Assistant </h3>
+                            <p className='company-desc'>
+                            Teaching Assistant for a class of 100 students where 
+                            I helped them with questions regarding conceptual, 
+                            syntactical, and language-based understanding for different 
+                            programming languages. I also graded several assignments 
+                            for the computer science department in this class.
+                            </p>
+                        </div>  
+                    </div>
+
                     <div className='company'>
                         <div className='company-icon-name'>
                             <div className='company-icon-cover'>
@@ -158,6 +221,7 @@ export default function Profile() {
                             </p>
                         </div>  
                     </div>
+
                     <div className='company'>
                         <div className='company-icon-name'>
                             <div className='company-icon-cover'>
@@ -179,6 +243,7 @@ export default function Profile() {
                             </p>
                         </div>  
                     </div>
+
                     <div className='company'>
                         <div className='company-icon-name'>
                             <div className='company-icon-cover'>
