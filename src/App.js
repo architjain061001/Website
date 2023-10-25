@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import AboutMe from './components/Pages/AboutMe';
 import Profile from './components/Pages/Profile';
 import Projects from './components/Pages/Projects';
@@ -19,7 +19,7 @@ function App() {
   }, [])
 
   return (
-    <Router>
+    <HashRouter>
       <Navbar />
       {
         loading ? 
@@ -33,7 +33,7 @@ function App() {
           <Route path='/contact-me' exact element={<ContactMe/>} />
         </Routes>
       }
-    </Router>
+    </HashRouter>
   );
 }
 
