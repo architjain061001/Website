@@ -39,7 +39,7 @@ export default function Profile() {
             </div>
             <div className='edu-exp-column'>
                 <div className='edu-column'>
-                    <h1 className='edu-exp-title'>Education</h1>
+                    <h1 className='edu-exp-title'>Education & Leadership</h1>
                     
                      <div className='school'>
                         <div className='school-icon-name'>
@@ -117,6 +117,48 @@ export default function Profile() {
                     <div className='school'>
                         <div className='school-icon-name'>
                             <div className='school-icon-cover'>
+                                <i class="fa-solid fa-crown"/>
+                            </div>
+                            <h2 className='company-name'>Tufts Association of South Asians</h2>
+                        </div>
+                        <div className='school-info'>
+                            <div className='school-time-border'>
+                                <p className='school-time'>Sep 2020 - May 2023</p>
+                            </div>
+                            <h3 className='company-role'> Head of Public Relations </h3>
+                            <p className='company-desc'>
+                                Led an event planning team by creating graphics,
+                                video compositions, and social media outreach across 
+                                campus for all students and organizations south-asian 
+                                community.  
+                            </p>
+                        </div>  
+                    </div>  
+
+                    <div className='school'>
+                        <div className='school-icon-name'>
+                            <div className='school-icon-cover'>
+                                <i class="fa-solid fa-crown"/>
+                            </div>
+                            <h2 className='company-name'>Tufts Cricket Club</h2>
+                        </div>
+                        <div className='school-info'>
+                            <div className='school-time-border'>
+                                <p className='school-time'>Sep 2022 - May 2023</p>
+                            </div>
+                            <h3 className='company-role'> Vice Captain </h3>
+                            <p className='company-desc'>
+                                Vice Captain of the University cricket team where 
+                                I planned and strategised gameplay, maanged the team,
+                                led squad selection, and planned strategies for 
+                                games against other universities.   
+                            </p>
+                        </div>  
+                    </div>  
+
+                    <div className='school'>
+                        <div className='school-icon-name'>
+                            <div className='school-icon-cover'>
                                 <i class="fa-solid fa-certificate"/>
                             </div>
                             <h2 className='school-name'>Certifications</h2>
@@ -176,6 +218,26 @@ export default function Profile() {
                                 their flagship product "Agile Creative Studio” through full stack 
                                 development using essential tools such as Redux, Javascript, 
                                 CSS, SQL, and AWS.
+                            </p>
+                        </div>  
+                    </div>
+                    <div className='company'>
+                        <div className='company-icon-name'>
+                            <div className='company-icon-cover'>
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                            <h2 className='company-name'>Tufts College Community Research Center</h2>
+                        </div>
+                        <div className='company-info'>
+                            <div className='company-time-border'>
+                                <p className='company-time'>Sep 2021 - Dec 2021</p>
+                            </div>
+                            <h3 className='company-role'> Student Consultant </h3>
+                            <p className='company-desc'>
+                            Worked and coordinated with a team of 5 students to implement a 
+                            marketing campaign and a comprehensive marketing plan for an
+                             organization that focuses on providing grants and opportunities 
+                             for community based participatory research to Tufts students
                             </p>
                         </div>  
                     </div>
